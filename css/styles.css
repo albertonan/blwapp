@@ -103,6 +103,9 @@ body {
   top: 0;
   z-index: 100;
   padding: var(--spacing) var(--spacing-md);
+  padding-top: calc(var(--spacing) + env(safe-area-inset-top));
+  padding-left: calc(var(--spacing-md) + env(safe-area-inset-left));
+  padding-right: calc(var(--spacing-md) + env(safe-area-inset-right));
   background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
   color: white;
   box-shadow: var(--shadow-md);
@@ -530,7 +533,7 @@ textarea.input {
 .sos {
   position: fixed;
   right: var(--spacing-md);
-  bottom: 80px;
+  bottom: calc(80px + env(safe-area-inset-bottom));
   width: 60px;
   height: 60px;
   border-radius: var(--radius-full);
