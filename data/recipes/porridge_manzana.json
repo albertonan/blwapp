@@ -1,0 +1,31 @@
+{
+  "id": "porridge_manzana",
+  "nombre": "Porridge de avena con manzana",
+  "edad_minima": 6,
+  "alergenos": ["gluten"],
+  "ingredientes": [
+    "3 cucharadas de copos de avena",
+    "150ml de leche materna, fórmula o agua",
+    "1/2 manzana",
+    "Una pizca de canela (opcional)"
+  ],
+  "preparacion": [
+    "Pela la manzana, quita el corazón y ralla o trocea muy fino.",
+    "Cocina la manzana al microondas 1-2 min o al vapor hasta que esté blanda.",
+    "En un cazo, mezcla la avena con la leche/agua.",
+    "Cocina a fuego medio removiendo 3-5 min hasta que espese.",
+    "Añade la manzana cocida y la canela.",
+    "Deja enfriar antes de servir."
+  ],
+  "textura": "Gachas espesas y cremosas con trocitos de manzana blanda.",
+  "como_servir": [
+    "En cuchara precargada.",
+    "Puede ofrecerse más espeso para que coja con las manos."
+  ],
+  "notas_seguridad": [
+    "Sin azúcar ni miel.",
+    "La manzana DEBE estar cocida (cruda es riesgo de atragantamiento).",
+    "Supervisar siempre."
+  ],
+  "fuente": "NHS UK"
+}

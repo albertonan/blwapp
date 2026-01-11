@@ -1,0 +1,40 @@
+{
+  "id": "mango",
+  "nombre": "Mango",
+  "info_nutricional": "Vitaminas A, C y E, fibra, antioxidantes. Fuente: Solid Starts - https://solidstarts.com/foods/mango/",
+  "nivel_riesgo": "bajo",
+  "fuente": "Solid Starts, AEP",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Tira larga de mango maduro",
+      "descripcion": "Cortar tiras largas del tamaño de un dedo adulto. Pelar completamente. Debe estar muy maduro.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Con la piel como agarre",
+      "descripcion": "Cortar un trozo grande con parte de piel (no comestible) para que el bebé agarre y chupe la pulpa.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Cubos pequeños",
+      "descripcion": "Cuando domine la pinza, ofrecer cubos pequeños.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Mango verde o duro",
+    "Trozos pequeños y resbaladizos en bebés que no dominan pinza",
+    "Hueso (siempre retirar)"
+  ],
+  "recetas_sugeridas": [
+    "Mango chafado",
+    "Mango con yogur",
+    "Smoothie de mango (ofrecido con cuchara)"
+  ]
+}

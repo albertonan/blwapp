@@ -1,0 +1,44 @@
+{
+  "id": "aguacate",
+  "nombre": "Aguacate",
+  "grupo": "grasas",
+  "edad_minima": 6,
+  "es_alergeno": false,
+  "info_nutricional": "Rico en grasas monoinsaturadas saludables, vitamina E, potasio, fibra y ácido fólico. Excelente primer alimento por su textura suave.",
+  "nivel_riesgo": "bajo",
+  "fuente": {
+    "nombre": "Solid Starts",
+    "url": "https://solidstarts.com/foods/avocado/"
+  },
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Bastón grande (tamaño dedo)",
+      "descripcion": "Corta el aguacate maduro en tiras gruesas longitudinales del tamaño de tu dedo. El aguacate debe estar muy maduro y deshacerse fácilmente al presionar. El bebé lo agarrará con el puño y chupará la parte que sobresale.",
+      "seguro": true,
+      "imagen": "assets/images/aguacate_baston.svg"
+    },
+    {
+      "edad_meses": 8,
+      "titulo": "Trozos medianos",
+      "descripcion": "Corta en cubos de 1-2cm. A esta edad desarrollan la pinza y pueden coger trozos más pequeños.",
+      "seguro": true
+    },
+    {
+      "edad_meses": 12,
+      "titulo": "Cualquier forma",
+      "descripcion": "A partir del año pueden comer aguacate cortado de cualquier forma, en tostadas, ensaladas, etc.",
+      "seguro": true
+    }
+  ],
+  "prohibido": [
+    "Aguacate duro/verde (riesgo de atragantamiento)",
+    "Bolitas redondas pequeñas",
+    "Trozos resbaladizos sin textura"
+  ],
+  "recetas_sugeridas": [
+    "pure_aguacate_platano",
+    "tostada_aguacate"
+  ],
+  "advertencia": "Si el aguacate está muy resbaladizo, puedes rebozarlo ligeramente en copos de avena o pan rallado para facilitar el agarre."
+}

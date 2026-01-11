@@ -1,0 +1,42 @@
+{
+  "id": "patata",
+  "nombre": "Patata",
+  "info_nutricional": "Carbohidratos complejos, potasio, vitamina C, vitamina B6. Fuente: NHS UK - https://www.nhs.uk/start-for-life/weaning/",
+  "nivel_riesgo": "bajo",
+  "fuente": "NHS UK, AEP",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Bastones cocidos o asados",
+      "descripcion": "Cortar en bastones gruesos (tipo gajo de patata). Cocer al vapor o asar hasta que esté tierna.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Puré espeso",
+      "descripcion": "Puré de patata casero (sin sal, con AOVE o leche materna/fórmula).",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Trozos más pequeños",
+      "descripcion": "Cubos tiernos del tamaño para pinza.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Patata cruda (tóxica, contiene solanina)",
+    "Patata con partes verdes (solanina)",
+    "Patatas fritas comerciales con sal",
+    "Trozos duros"
+  ],
+  "recetas_sugeridas": [
+    "Patata asada en gajos",
+    "Puré de patata con AOVE",
+    "Tortilla de patata (bien cuajada)"
+  ],
+  "advertencia": "⚠️ NUNCA dar patata cruda. Las partes verdes contienen solanina, que es tóxica."
+}

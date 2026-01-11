@@ -1,0 +1,29 @@
+{
+  "id": "fresas_yogur",
+  "nombre": "Fresas con yogur",
+  "edad_minima": 6,
+  "alergenos": ["leche"],
+  "ingredientes": [
+    "3-4 fresas maduras grandes",
+    "2-3 cucharadas de yogur natural entero"
+  ],
+  "preparacion": [
+    "Lava bien las fresas y quita el tallo.",
+    "Corta las fresas por la mitad o en cuartos según el tamaño.",
+    "Chafa ligeramente con tenedor o deja en trozos.",
+    "Mezcla con el yogur o sirve por separado."
+  ],
+  "textura": "Fresas blandas con yogur cremoso.",
+  "como_servir": [
+    "Fresas cortadas para agarrar, mojando en yogur.",
+    "Todo mezclado en cuchara precargada.",
+    "Las fresas grandes cortadas por la mitad son fáciles de agarrar."
+  ],
+  "notas_seguridad": [
+    "Sin azúcar.",
+    "Las fresas pueden causar irritación alrededor de la boca (por la acidez, NO es alergia).",
+    "Yogur entero (no desnatado).",
+    "Supervisar siempre."
+  ],
+  "fuente": "NHS UK"
+}

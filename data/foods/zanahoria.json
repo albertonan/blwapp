@@ -1,0 +1,43 @@
+{
+  "id": "zanahoria",
+  "nombre": "Zanahoria",
+  "grupo": "verduras",
+  "edad_minima": 6,
+  "es_alergeno": false,
+  "info_nutricional": "Muy rica en betacaroteno (provitamina A), fibra, vitamina K y potasio. Excelente para la vista y el sistema inmune.",
+  "nivel_riesgo": "medio",
+  "fuente": {
+    "nombre": "Solid Starts",
+    "url": "https://solidstarts.com/foods/carrot/"
+  },
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Bastones cocidos muy blandos",
+      "descripcion": "Pela y corta en bastones del tamaño del dedo. Cuece al vapor o hervida hasta que se deshaga al presionar con el dedo. Debe estar MUY blanda, no al dente.",
+      "seguro": true,
+      "imagen": "assets/images/zanahoria_baston.svg"
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Trozos pequeños cocidos",
+      "descripcion": "Corta en trozos de 1cm bien cocidos. El bebé ya tiene pinza para coger trozos pequeños.",
+      "seguro": true
+    },
+    {
+      "edad_meses": 18,
+      "titulo": "Zanahoria rallada",
+      "descripcion": "A partir de 18 meses puede tomar zanahoria cruda rallada fina en ensaladas.",
+      "seguro": true
+    }
+  ],
+  "prohibido": [
+    "Zanahoria CRUDA en bastones o rodajas (alto riesgo atragantamiento)",
+    "Zanahoria cocida al dente (demasiado dura)",
+    "Rodajas redondas de cualquier tamaño"
+  ],
+  "recetas_sugeridas": [
+    "crema_calabaza"
+  ],
+  "advertencia": "RIESGO MEDIO. La zanahoria cruda es uno de los alimentos con mayor riesgo de atragantamiento. NUNCA dar cruda hasta al menos 18 meses y siempre rallada fina. Cocida debe estar muy muy blanda."
+}

@@ -1,0 +1,52 @@
+{
+  "id": "salmon",
+  "nombre": "Salmón",
+  "info_nutricional": "Omega-3 DHA (desarrollo cerebral), proteína, vitamina D, vitamina B12. Fuente: AEP - https://www.aeped.es/comite-nutricion-y-lactancia-materna/nutricion-infantil/documentos/recomendaciones-sobre-alimentacion",
+  "nivel_riesgo": "medio",
+  "fuente": "AEP, NHS UK, AESAN",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Filete de salmón en tira grande",
+      "descripcion": "Cocinar al horno o al vapor. Cortar en tiras del tamaño de un dedo. SIEMPRE revisar espinas con cuidado.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Salmón desmenuzado",
+      "descripcion": "Desmenuzar revisando espinas. Mezclar con puré de patata o verduras.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Trozos para pinza",
+      "descripcion": "Trozos pequeños sin espinas.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Salmón crudo (sushi/sashimi) - riesgo de parásitos",
+    "Salmón ahumado (alto en sal)",
+    "Con espinas"
+  ],
+  "recetas_sugeridas": [
+    "Salmón al horno con limón",
+    "Croquetas de salmón caseras (sin sal)",
+    "Salmón con puré de boniato"
+  ],
+  "alergeno": {
+    "es_alergeno": true,
+    "categoria": "pescado",
+    "nota": "El pescado es uno de los alérgenos principales. Introducir siguiendo las pautas de tu pediatra.",
+    "sintomas_alerta": [
+      "Ronchas o urticaria",
+      "Hinchazón de labios/cara",
+      "Vómitos",
+      "Dificultad respiratoria"
+    ]
+  },
+  "nota_extra": "El salmón es excelente por su omega-3. Se recomienda 1-2 raciones de pescado azul a la semana."
+}

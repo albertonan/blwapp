@@ -1,0 +1,40 @@
+{
+  "id": "fresas",
+  "nombre": "Fresas",
+  "info_nutricional": "Vitamina C (más que la naranja por peso), manganeso, antioxidantes. Fuente: NHS UK - https://www.nhs.uk/start-for-life/weaning/what-to-feed-your-baby/fruit-and-vegetables/",
+  "nivel_riesgo": "bajo",
+  "fuente": "NHS UK, Solid Starts",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Fresa grande cortada por la mitad",
+      "descripcion": "Elegir fresas grandes. Cortar por la mitad longitudinalmente. La textura blanda es fácil de masticar.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Fresa chafada",
+      "descripcion": "Chafar ligeramente con un tenedor para bebés más pequeños.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Fresas enteras pequeñas o trozos",
+      "descripcion": "Fresas pequeñas enteras o en cuartos cuando domine la pinza.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Fresas enteras pequeñas en bebés que no dominan mordida (pueden intentar tragarlas enteras)",
+    "Con el tallo/hojas"
+  ],
+  "recetas_sugeridas": [
+    "Fresas con yogur natural",
+    "Fresas chafadas con plátano",
+    "Batido de fresas (ofrecido con cuchara)"
+  ],
+  "nota_extra": "Aunque las fresas pueden causar irritación perioral (alrededor de la boca), esto NO es una alergia. Es por su acidez. Fuente: NHS UK"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "quinoa",
+  "nombre": "Quinoa",
+  "info_nutricional": "Proteína completa vegetal (todos los aminoácidos esenciales), fibra, hierro, magnesio. Fuente: NHS UK",
+  "nivel_riesgo": "bajo",
+  "fuente": "NHS UK, Solid Starts",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Quinoa cocida pegajosa",
+      "descripcion": "Cocer la quinoa con más agua de lo normal para que quede blanda y pegajosa. Se puede formar en bolas.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Hamburguesas de quinoa",
+      "descripcion": "Mezclar quinoa cocida con huevo y verduras, formar hamburguesas y cocinar.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Quinoa suelta",
+      "descripcion": "Cuando domine la pinza, quinoa suelta con verduras.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Quinoa sin enjuagar bien (tiene saponinas amargas)",
+    "Quinoa cruda"
+  ],
+  "recetas_sugeridas": [
+    "Quinoa con verduras",
+    "Hamburguesas de quinoa",
+    "Quinoa con pollo"
+  ],
+  "nota_extra": "Enjuagar bien la quinoa antes de cocinar para eliminar las saponinas (sabor amargo)."
+}

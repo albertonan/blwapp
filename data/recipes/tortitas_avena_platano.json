@@ -1,0 +1,30 @@
+{
+  "id": "tortitas_avena_platano",
+  "nombre": "Tortitas de avena y plátano",
+  "edad_minima": 6,
+  "alergenos": ["huevo", "gluten"],
+  "ingredientes": [
+    "1 plátano maduro",
+    "1 huevo",
+    "3 cucharadas de avena en copos finos"
+  ],
+  "preparacion": [
+    "Chafa el plátano con un tenedor hasta hacer un puré.",
+    "Añade el huevo y mezcla bien.",
+    "Incorpora la avena y deja reposar 5 minutos.",
+    "Calienta una sartén antiadherente a fuego medio con un poco de AOVE.",
+    "Vierte cucharadas de masa y cocina 2-3 min por cada lado hasta que estén doradas.",
+    "Deja enfriar antes de servir."
+  ],
+  "textura": "Tortitas blandas y esponjosas, fáciles de agarrar y masticar con las encías.",
+  "como_servir": [
+    "En tiras o cuartos para agarrar con la mano.",
+    "Enteras si son pequeñas (tipo silver dollar)."
+  ],
+  "notas_seguridad": [
+    "Sin sal, azúcar ni miel.",
+    "Asegúrate de que el huevo esté bien cocido.",
+    "Supervisa siempre durante la comida."
+  ],
+  "fuente": "Receta adaptada de recomendaciones NHS UK y Solid Starts"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "queso_tierno",
+  "nombre": "Queso tierno",
+  "info_nutricional": "Calcio, proteína, fósforo. Más curado que el fresco pero aún suave. Fuente: NHS UK",
+  "nivel_riesgo": "bajo",
+  "fuente": "NHS UK, Solid Starts",
+  "presentaciones": [
+    {
+      "edad_meses": 9,
+      "titulo": "Tiras o bastones",
+      "descripcion": "Cortar en bastones del tamaño de un dedo. Elegir variedades bajas en sal.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Rallado",
+      "descripcion": "Rallar sobre otros alimentos.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Quesos muy curados (alto en sal)",
+    "Quesos con leche cruda",
+    "Quesos muy duros que no pueda masticar"
+  ],
+  "recetas_sugeridas": [
+    "Bastones de queso tierno",
+    "Queso rallado en pasta"
+  ],
+  "alergeno": {
+    "es_alergeno": true,
+    "categoria": "leche"
+  }
+}

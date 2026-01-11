@@ -1,0 +1,45 @@
+{
+  "id": "platano",
+  "nombre": "Plátano",
+  "grupo": "frutas",
+  "edad_minima": 6,
+  "es_alergeno": false,
+  "info_nutricional": "Rico en potasio, vitamina B6, vitamina C y fibra. Carbohidrato natural de fácil digestión. Excelente primer alimento por su dulzor natural.",
+  "nivel_riesgo": "bajo",
+  "fuente": {
+    "nombre": "Solid Starts",
+    "url": "https://solidstarts.com/foods/banana/"
+  },
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Mitad con mango de piel",
+      "descripcion": "Corta el plátano por la mitad y pela solo la parte superior dejando la piel inferior como mango para que el bebé lo agarre sin que se resbale. El plátano debe estar maduro con pintas marrones.",
+      "seguro": true,
+      "imagen": "assets/images/platano_mitad.svg"
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Tiras largas",
+      "descripcion": "Corta el plátano en cuartos longitudinales. Si resbala mucho, reboza ligeramente en copos de avena o coco rallado.",
+      "seguro": true
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Rodajas gruesas o trozos",
+      "descripcion": "Corta en rodajas gruesas (2cm) o trozos que pueda coger con la pinza.",
+      "seguro": true
+    }
+  ],
+  "prohibido": [
+    "Rodajas finas tipo moneda (riesgo de deslizamiento en la garganta)",
+    "Plátano verde/duro",
+    "Trozos redondos pequeños"
+  ],
+  "recetas_sugeridas": [
+    "yogur_platano_chafado",
+    "tortitas_avena_platano",
+    "pure_aguacate_platano"
+  ],
+  "advertencia": "El plátano maduro es muy resbaladizo. Usa el truco del mango de piel o rebózalo ligeramente para mejor agarre."
+}

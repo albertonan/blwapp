@@ -1,0 +1,44 @@
+{
+  "id": "tofu",
+  "nombre": "Tofu",
+  "info_nutricional": "Proteína vegetal completa, calcio, hierro, bajo en grasa. Fuente: Solid Starts - https://solidstarts.com/foods/tofu/",
+  "nivel_riesgo": "bajo",
+  "fuente": "Solid Starts, NHS UK",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Tofu firme en tiras",
+      "descripcion": "Elegir tofu firme. Cortar en tiras del tamaño de un dedo. Se puede ofrecer crudo o ligeramente cocinado.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Tofu a la plancha",
+      "descripcion": "Dorar ligeramente en sartén con AOVE. Queda con textura más firme por fuera.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Cubos de tofu",
+      "descripcion": "Cubos del tamaño para pinza.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Tofu sedoso o blando (demasiado resbaladizo)",
+    "Tofu frito en exceso de aceite"
+  ],
+  "recetas_sugeridas": [
+    "Tofu a la plancha con verduras",
+    "Tofu revuelto (como huevos)",
+    "Tofu con aguacate"
+  ],
+  "alergeno": {
+    "es_alergeno": true,
+    "categoria": "soja",
+    "nota": "El tofu se hace de soja, que es un alérgeno común. Introducir con precaución."
+  }
+}

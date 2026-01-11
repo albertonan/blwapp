@@ -1,0 +1,46 @@
+{
+  "id": "pan",
+  "nombre": "Pan",
+  "info_nutricional": "Carbohidratos, energía. El integral aporta más fibra. Fuente: NHS UK - https://www.nhs.uk/start-for-life/weaning/",
+  "nivel_riesgo": "medio",
+  "fuente": "NHS UK, Solid Starts",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Tostada en tiras",
+      "descripcion": "Tostar ligeramente el pan y cortar en tiras. La tostada es más fácil de agarrar que el pan blando.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Pan con costra suave",
+      "descripcion": "Tiras de pan con la corteza (ayuda al agarre). Pan de molde puede ser muy blando y pegajoso.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Trozos más pequeños",
+      "descripcion": "Trozos del tamaño para pinza.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Pan de molde blanco muy blando (se hace bola pegajosa en la boca)",
+    "Pan con semillas enteras grandes",
+    "Mucha cantidad de golpe (puede formar bola)"
+  ],
+  "recetas_sugeridas": [
+    "Tostada con aguacate",
+    "Pan con tomate",
+    "Tostada con mantequilla de cacahuete (si ya introducido)"
+  ],
+  "alergeno": {
+    "es_alergeno": true,
+    "categoria": "gluten",
+    "nota": "El pan de trigo contiene gluten."
+  },
+  "advertencia": "⚠️ El pan blando de molde puede formar una bola pegajosa en la boca. Preferir pan con corteza o tostado."
+}

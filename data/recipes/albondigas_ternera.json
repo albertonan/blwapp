@@ -1,0 +1,33 @@
+{
+  "id": "albondigas_ternera",
+  "nombre": "Albóndigas de ternera caseras",
+  "edad_minima": 6,
+  "alergenos": ["huevo", "gluten"],
+  "ingredientes": [
+    "200g de carne picada de ternera",
+    "1 huevo pequeño",
+    "2 cucharadas de pan rallado",
+    "1 cucharada de AOVE"
+  ],
+  "preparacion": [
+    "Mezcla la carne picada con el huevo y el pan rallado.",
+    "Forma albóndigas pequeñas (del tamaño de una nuez grande).",
+    "Cocina en sartén con AOVE, dándoles vuelta, hasta que estén bien hechas por dentro.",
+    "También puedes hornearlas a 180°C durante 15-20 min.",
+    "Comprueba que no queden rosadas por dentro.",
+    "Deja enfriar antes de servir."
+  ],
+  "textura": "Albóndigas tiernas y jugosas, fáciles de agarrar.",
+  "como_servir": [
+    "Enteras si son pequeñas (supervisa de cerca).",
+    "Cortadas por la mitad para bebés más pequeños.",
+    "Acompañadas de salsa de tomate casera."
+  ],
+  "notas_seguridad": [
+    "Sin sal.",
+    "La carne DEBE estar completamente cocida (sin partes rosadas).",
+    "El huevo debe estar bien cocido.",
+    "Supervisar siempre."
+  ],
+  "fuente": "NHS UK"
+}

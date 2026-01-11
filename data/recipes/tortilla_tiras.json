@@ -1,0 +1,36 @@
+{
+  "id": "tortilla_tiras",
+  "nombre": "Tortilla francesa en tiras",
+  "edad_minima": 6,
+  "tiempo_preparacion": "5 minutos",
+  "alergenos": ["huevo"],
+  "ingredientes": [
+    "1 huevo",
+    "1 cucharadita de aceite de oliva virgen extra"
+  ],
+  "preparacion": [
+    "Bate el huevo en un bol con un tenedor hasta que esté homogéneo.",
+    "Calienta una sartén antiadherente pequeña a fuego medio-bajo con un poco de aceite de oliva.",
+    "Vierte el huevo batido y deja que cuaje lentamente sin remover.",
+    "Cuando esté casi cuajado por arriba, dobla por la mitad o dale la vuelta.",
+    "Asegúrate de que el huevo esté COMPLETAMENTE cocido, sin partes líquidas.",
+    "Deja templar y corta en tiras del tamaño del dedo del bebé."
+  ],
+  "textura": "Blanda, esponjosa y completamente cuajada. Fácil de masticar con las encías.",
+  "como_servir": [
+    "Tiras largas y anchas para agarre palmar (6-8 meses).",
+    "Trozos más pequeños cuando domine la pinza (9+ meses).",
+    "Puede acompañarse de aguacate o verduras cocidas."
+  ],
+  "notas_seguridad": [
+    "ALÉRGENO: El huevo es uno de los 14 alérgenos principales.",
+    "Introducir cuando el bebé esté sano, durante el día (no antes de dormir).",
+    "Observar posibles reacciones durante 2-3 días.",
+    "El huevo debe estar COMPLETAMENTE cocido (sin partes líquidas) para evitar salmonela.",
+    "Sin sal añadida."
+  ],
+  "fuente": {
+    "nombre": "NHS UK - Weaning",
+    "url": "https://www.nhs.uk/start-for-life/baby/weaning/"
+  }
+}

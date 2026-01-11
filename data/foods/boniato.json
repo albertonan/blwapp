@@ -1,0 +1,40 @@
+{
+  "id": "boniato",
+  "nombre": "Boniato / Batata",
+  "info_nutricional": "Vitamina A (betacaroteno), vitamina C, fibra, potasio. Más dulce que la patata. Fuente: Solid Starts - https://solidstarts.com/foods/sweet-potato/",
+  "nivel_riesgo": "bajo",
+  "fuente": "Solid Starts, NHS UK, AEP",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Bastones asados",
+      "descripcion": "Pelar, cortar en bastones gruesos, rociar con AOVE y asar a 200°C 25-35 min hasta que esté muy tierno.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Puré o chafado",
+      "descripcion": "Cocer y chafar. Excelente primer alimento.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Cubos tiernos",
+      "descripcion": "Cubos del tamaño para pinza.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Boniato crudo",
+    "Trozos duros o poco cocidos"
+  ],
+  "recetas_sugeridas": [
+    "Boniato asado",
+    "Puré de boniato",
+    "Boniato con mantequilla de cacahuete (si ya introducido)"
+  ],
+  "nota_extra": "El boniato es un excelente primer alimento BLW por su sabor dulce natural y textura suave."
+}

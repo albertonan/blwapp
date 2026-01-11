@@ -1,0 +1,35 @@
+{
+  "id": "cerdo",
+  "nombre": "Cerdo",
+  "info_nutricional": "Proteína, tiamina (vitamina B1), zinc, hierro. Fuente: NHS UK - https://www.nhs.uk/start-for-life/weaning/",
+  "nivel_riesgo": "bajo",
+  "fuente": "NHS UK, Solid Starts",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Lomo de cerdo en tiras",
+      "descripcion": "Cocinar el lomo (corte magro) y cortar en tiras del grosor de un dedo. Debe estar bien hecho pero jugoso.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Cerdo desmenuzado",
+      "descripcion": "Carne guisada o al horno, desmenuzada.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Cerdo crudo o poco hecho",
+    "Embutidos (jamón, chorizo, salchichas) - alto contenido en sal y nitritos",
+    "Tocino/bacon (muy salado)",
+    "Partes muy grasas"
+  ],
+  "recetas_sugeridas": [
+    "Lomo de cerdo a la plancha",
+    "Cerdo guisado con manzana",
+    "Albóndigas de cerdo"
+  ],
+  "advertencia": "⚠️ El cerdo debe estar siempre bien cocinado. Evitar embutidos y carnes procesadas por su alto contenido en sal."
+}

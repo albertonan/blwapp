@@ -1,0 +1,48 @@
+{
+  "id": "cacahuete_polvo",
+  "nombre": "Cacahuete (polvo/mantequilla)",
+  "info_nutricional": "Proteína, grasas saludables, niacina, vitamina E. Fuente: NHS UK - https://www.nhs.uk/start-for-life/weaning/",
+  "nivel_riesgo": "alto",
+  "fuente": "NHS UK, LEAP Study, AEP",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Mantequilla de cacahuete fina (100%)",
+      "descripcion": "Untar una capa fina en pan o mezclar con frutas/yogur. NUNCA dar a cucharadas solas.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Polvo/harina de cacahuete",
+      "descripcion": "Añadir a papillas, frutas o yogur. El polvo de cacahuete (como PB2) es seguro.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Cacahuetes enteros o en trozos (RIESGO ALTO hasta 4-5 años)",
+    "Mantequilla de cacahuete con trozos",
+    "Cucharada de mantequilla sola (espesa, riesgo atragantamiento)",
+    "Cacahuetes garrapiñados o salados"
+  ],
+  "recetas_sugeridas": [
+    "Tostada con mantequilla de cacahuete",
+    "Plátano con mantequilla de cacahuete",
+    "Batido con polvo de cacahuete"
+  ],
+  "alergeno": {
+    "es_alergeno": true,
+    "categoria": "frutos_secos",
+    "nota": "El cacahuete es uno de los alérgenos más comunes. El estudio LEAP demostró que la introducción temprana puede REDUCIR el riesgo de alergia. Consulta a tu pediatra, especialmente si hay eczema severo o alergia al huevo.",
+    "sintomas_alerta": [
+      "Ronchas o urticaria",
+      "Hinchazón de labios, lengua o garganta",
+      "Vómitos",
+      "Dificultad respiratoria",
+      "Tos persistente",
+      "Anafilaxia"
+    ]
+  },
+  "advertencia": "⚠️ CACAHUETES ENTEROS: RIESGO DE ATRAGANTAMIENTO HASTA LOS 4-5 AÑOS. Solo mantequilla fina o polvo. Introducir temprano puede prevenir alergias (estudio LEAP). Fuente: NHS UK, LEAP Study"
+}

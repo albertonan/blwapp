@@ -1,0 +1,36 @@
+{
+  "id": "lenguado",
+  "nombre": "Lenguado",
+  "info_nutricional": "Proteína magra, fósforo, yodo. Pescado blanco muy suave. Fuente: AEP",
+  "nivel_riesgo": "medio",
+  "fuente": "AEP, NHS UK",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Filete de lenguado",
+      "descripcion": "Cocinar al vapor o a la plancha con AOVE. Es muy fino, revisar espinas. Excelente para primeras introducciones.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Lenguado desmenuzado",
+      "descripcion": "Desmenuzar cuidadosamente. Mezclar con puré.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Pescado crudo",
+    "Con espinas"
+  ],
+  "recetas_sugeridas": [
+    "Lenguado a la plancha",
+    "Lenguado al vapor con patata"
+  ],
+  "alergeno": {
+    "es_alergeno": true,
+    "categoria": "pescado",
+    "nota": "Alérgeno. Introducir con precaución."
+  }
+}

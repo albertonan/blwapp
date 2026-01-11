@@ -1,0 +1,40 @@
+{
+  "id": "arandanos",
+  "nombre": "Arándanos",
+  "info_nutricional": "Antioxidantes, vitaminas C y K, fibra. Fuente: Solid Starts - https://solidstarts.com/foods/blueberry/",
+  "nivel_riesgo": "medio",
+  "fuente": "Solid Starts, NHS UK",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Chafados o aplastados",
+      "descripcion": "IMPORTANTE: Los arándanos enteros son riesgo de atragantamiento. Siempre aplastar, chafar o cortar.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Cortados por la mitad",
+      "descripcion": "Cortar cada arándano por la mitad o en cuartos.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 12,
+      "titulo": "Enteros (con supervisión)",
+      "descripcion": "A partir de 12 meses y cuando el bebé mastique bien, puede probar enteros bajo supervisión.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Arándanos enteros en bebés menores de 12 meses (forma redonda = riesgo atragantamiento)",
+    "Grandes cantidades sin cortar"
+  ],
+  "recetas_sugeridas": [
+    "Arándanos chafados con yogur",
+    "Compota de arándanos",
+    "Avena con arándanos aplastados"
+  ],
+  "advertencia": "⚠️ Los arándanos enteros tienen forma y tamaño de riesgo de atragantamiento. SIEMPRE aplastar o cortar para bebés."
+}

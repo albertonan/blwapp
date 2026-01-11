@@ -1,0 +1,32 @@
+{
+  "id": "melon",
+  "nombre": "Melón",
+  "info_nutricional": "Vitaminas A y C, potasio, alta hidratación. Fuente: Solid Starts - https://solidstarts.com/foods/cantaloupe/",
+  "nivel_riesgo": "bajo",
+  "fuente": "Solid Starts, NHS UK",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Tiras grandes muy maduras",
+      "descripcion": "Elegir melón muy maduro. Cortar tiras del tamaño de un dedo adulto, sin corteza ni semillas.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Cubos",
+      "descripcion": "Cubos medianos cuando domine la pinza.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Con semillas o corteza",
+    "Melón poco maduro (duro)",
+    "Trozos pequeños y resbaladizos"
+  ],
+  "recetas_sugeridas": [
+    "Melón fresco en tiras",
+    "Melón con jamón serrano (sin sal añadida, a partir de 9-12m según pediatra)"
+  ]
+}

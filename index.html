@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#10b981" />
+  <meta name="description" content="BLW Care - App para familias que practican Baby-Led Weaning. Gestiona alimentos, alergias y recetas de forma segura." />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>BLW Care - Baby Led Weaning</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png" />
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+  
+  <header class="app-header">
+    <h1 class="app-title">BLW Care</h1>
+    <p class="app-subtitle">La app no sustituye al pediatra. Prioriza la seguridad.</p>
+  </header>
+
+  <main id="main-content" class="app-main">
+    <section id="view-calendar" class="view is-active" aria-label="Calendario">
+      <div class="card">
+        <h2 class="h2">Diario de alimentación</h2>
+        <p class="muted">Vista mensual y registro por día (offline).</p>
+      </div>
+
+      <div id="milestones-warning" class="card" style="display:none">
+        <div class="alert alert-warning" style="margin:0">
+          <span class="alert-icon">⚠️</span>
+          <div>
+            <strong>Hitos motores incompletos</strong><br>
+            Antes de registrar alimentos, completa los hitos motores en <a href="#" id="go-to-milestones" style="color:inherit;font-weight:bold">Info / Seguridad</a>.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <button id="calendar-register" class="btn btn-primary" type="button" style="width:100%">Registrar día</button>
+        <p id="milestones-status" class="muted" style="margin:10px 0 0;text-align:center"></p>
+      </div>
+
+      <div class="card">
+        <div class="calendar-nav" aria-label="Navegación de mes">
+          <button id="cal-prev" class="btn" type="button" aria-label="Mes anterior">◀</button>
+          <div id="cal-month-label" class="calendar-month" aria-live="polite"></div>
+          <button id="cal-next" class="btn" type="button" aria-label="Mes siguiente">▶</button>
+        </div>
+
+        <div class="calendar-weekdays" aria-hidden="true">
+          <div>L</div><div>M</div><div>X</div><div>J</div><div>V</div><div>S</div><div>D</div>
+        </div>
+
+        <div id="cal-grid" class="calendar-grid" aria-label="Calendario mensual"></div>
+      </div>
+    </section>
+
+    <section id="view-allergies" class="view" aria-label="Alergias">
+      <div class="card">
+        <h2 class="h2">Alergias</h2>
+        <p class="muted">Marca el estado de alérgenos comunes. Si hay reacción, consulta con tu pediatra.</p>
+      </div>
+
+      <div class="card">
+        <div id="allergens-list" class="allergens-list" aria-label="Lista de alérgenos"></div>
+        <p id="allergens-warning" class="muted" style="margin:10px 0 0"></p>
+      </div>
+    </section>
+
+    <section id="view-foods" class="view" aria-label="Alimentos">
+      <div class="card">
+        <label class="label" for="food-search">Buscar alimento</label>
+        <input id="food-search" class="input" type="search" placeholder="Ej: aguacate, huevo…" autocomplete="off" />
+      </div>
+
+      <div class="card">
+        <label class="label" for="food-age-filter">Filtrar por edad</label>
+        <select id="food-age-filter" class="input">
+          <option value="safe">Según edad segura</option>
+          <option value="6-7">6–7 meses</option>
+          <option value="7-8">7–8 meses</option>
+          <option value="8-9">8–9 meses</option>
+          <option value="9-12">9–12 meses</option>
+        </select>
+        <p id="food-age-note" class="muted" style="margin:10px 0 0"></p>
+      </div>
+
+      <div class="card">
+        <h2 class="h2">Alimentos</h2>
+        <ul id="food-list" class="list" aria-label="Lista de alimentos"></ul>
+      </div>
+    </section>
+
+    <section id="view-recipes" class="view" aria-label="Recetas">
+      <div class="card">
+        <h2 class="h2">Recetas</h2>
+        <p class="muted">Recetas simples (sin sal, azúcar ni miel).</p>
+      </div>
+
+      <div class="card">
+        <label class="label" for="recipe-ingredient">Filtrar por ingrediente</label>
+        <input id="recipe-ingredient" class="input" type="search" placeholder="Ej: plátano, huevo…" autocomplete="off" />
+
+        <div style="height:10px"></div>
+        <label class="label" for="recipe-age-filter">Filtrar por edad</label>
+        <select id="recipe-age-filter" class="input">
+          <option value="safe">Según edad segura</option>
+          <option value="6-7">6–7 meses</option>
+          <option value="7-8">7–8 meses</option>
+          <option value="8-9">8–9 meses</option>
+          <option value="9-12">9–12 meses</option>
+        </select>
+
+        <div style="height:10px"></div>
+        <label class="check"><input id="recipe-exclude-reactive" type="checkbox" checked /> Excluir alérgenos con reacción</label>
+
+        <p id="recipe-note" class="muted" style="margin:10px 0 0"></p>
+      </div>
+
+      <div class="card">
+        <h2 class="h2">Listado</h2>
+        <ul id="recipe-list" class="list" aria-label="Lista de recetas"></ul>
+      </div>
+    </section>
+
+    <section id="view-info" class="view" aria-label="Info y seguridad">
+      <div class="card">
+        <h2 class="h2">Info / Seguridad</h2>
+        <p class="muted">Esta app es informativa y no sustituye al pediatra. Toda la información proviene de fuentes médicas verificadas.</p>
+      </div>
+
+      <div class="card">
+        <h2 class="h2">Fuentes verificadas</h2>
+        <ul class="info-list">
+          <li>
+            <strong>OMS (WHO)</strong> - Recomendaciones de alimentación complementaria
+            <br><a href="https://www.who.int/health-topics/complementary-feeding" target="_blank" rel="noopener" class="source-link">who.int</a>
+          </li>
+          <li>
+            <strong>AEP</strong> - Asociación Española de Pediatría
+            <br><a href="https://www.aeped.es/comite-nutricion-y-lactancia-materna" target="_blank" rel="noopener" class="source-link">aeped.es</a>
+          </li>
+          <li>
+            <strong>NHS UK</strong> - Servicio Nacional de Salud británico
+            <br><a href="https://www.nhs.uk/start-for-life/baby/weaning/" target="_blank" rel="noopener" class="source-link">nhs.uk</a>
+          </li>
+          <li>
+            <strong>Solid Starts</strong> - Base de datos de alimentos BLW
+            <br><a href="https://solidstarts.com/" target="_blank" rel="noopener" class="source-link">solidstarts.com</a>
+          </li>
+          <li>
+            <strong>AESAN</strong> - Agencia Española de Seguridad Alimentaria
+            <br><a href="https://www.aesan.gob.es/" target="_blank" rel="noopener" class="source-link">aesan.gob.es</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2 class="h2">Edad segura (regla clave)</h2>
+        <div class="alert alert-info">
+          <span class="alert-icon">💡</span>
+          <div>
+            <strong>La alimentación complementaria debe iniciarse a partir de los 6 meses</strong>, nunca antes de los 4 meses según la OMS.
+          </div>
+        </div>
+        <ul class="info-list">
+          <li><strong>Edad cronológica:</strong> desde la fecha de nacimiento real.</li>
+          <li><strong>Bebés prematuros (&lt;37 semanas):</strong> usar edad corregida basada en la FPP (Fecha Probable de Parto).</li>
+          <li>La app oculta y bloquea registros fuera de la edad segura.</li>
+          <li>Algunos alimentos tienen restricciones adicionales (ej: miel hasta 12 meses, frutos secos enteros hasta 3-4 años).</li>
+        </ul>
+      </div>
+
+      <div class="card" id="milestones-section">
+        <h2 class="h2">Hitos motores (obligatorio)</h2>
+        <div class="alert alert-warning">
+          <span class="alert-icon">⚠️</span>
+          <div>
+            <strong>TODOS los hitos deben cumplirse</strong> antes de iniciar BLW. Si no están completos, el registro queda bloqueado por seguridad.
+          </div>
+        </div>
+        
+        <fieldset class="checklist" style="margin:16px 0">
+          <legend class="label">Marca los hitos que tu bebé ya cumple:</legend>
+          <label class="check"><input id="ms-seated" type="checkbox" /> <span>Se mantiene sentado (sin apoyo o con mínimo apoyo)</span></label>
+          <label class="check"><input id="ms-no-extrusion" type="checkbox" /> <span>Sin reflejo de extrusión (no empuja comida con la lengua)</span></label>
+          <label class="check"><input id="ms-interest" type="checkbox" /> <span>Interés por comida (intenta alcanzarla)</span></label>
+          <label class="check"><input id="ms-hand" type="checkbox" /> <span>Coordinación mano-boca (coge objetos y se los lleva a la boca)</span></label>
+        </fieldset>
+        
+        <p id="milestones-info-status" class="muted"></p>
+        <p class="muted mt">Fuente: <a href="https://www.nhs.uk/start-for-life/baby/weaning/when-to-start-weaning/" target="_blank" rel="noopener">NHS UK - When to start weaning</a></p>
+      </div>
+
+      <div class="card">
+        <h2 class="h2">Alimentos prohibidos</h2>
+        <div class="alert alert-danger">
+          <span class="alert-icon">🚫</span>
+          <div>
+            <strong>NUNCA dar estos alimentos a bebés menores de 12 meses:</strong>
+          </div>
+        </div>
+        <ul class="info-list">
+          <li><strong>Miel:</strong> Riesgo de botulismo infantil. Prohibida hasta los 12 meses.</li>
+          <li><strong>Sal:</strong> Los riñones del bebé no pueden procesarla. Máximo 1g/día &lt;12m.</li>
+          <li><strong>Azúcar añadido:</strong> Sin necesidad nutricional, daña dientes y crea preferencias.</li>
+          <li><strong>Leche de vaca como bebida principal:</strong> Solo a partir de 12 meses.</li>
+          <li><strong>Frutos secos enteros:</strong> Riesgo de atragantamiento hasta 3-4 años. Usar en polvo o mantequilla.</li>
+          <li><strong>Pescados con alto mercurio:</strong> Pez espada, tiburón, atún rojo, lucio.</li>
+          <li><strong>Mariscos crudos:</strong> Riesgo de intoxicación alimentaria.</li>
+          <li><strong>Carnes procesadas:</strong> Embutidos, salchichas, beicon (alto en sal y nitritos).</li>
+        </ul>
+        <p class="muted mt">Fuente: <a href="https://www.aesan.gob.es/AECOSAN/web/seguridad_alimentaria/subdetalle/Recomendaciones_consumo_pescado.htm" target="_blank" rel="noopener">AESAN - Recomendaciones consumo pescado</a></p>
+      </div>
+
+      <div class="card">
+        <h2 class="h2">Arcada vs Atragantamiento</h2>
+        <div class="alert alert-success">
+          <span class="alert-icon">✅</span>
+          <div>
+            <strong>ARCADA (GAG reflex) - Normal y seguro:</strong><br>
+            • Ruidosa, tose activamente<br>
+            • Cara roja pero respira<br>
+            • Ojos llorosos<br>
+            • <em>NO intervenir, el bebé lo gestiona solo</em>
+          </div>
+        </div>
+        <div class="alert alert-danger">
+          <span class="alert-icon">🚨</span>
+          <div>
+            <strong>ATRAGANTAMIENTO (CHOKING) - Emergencia:</strong><br>
+            • Silencioso, no puede toser ni llorar<br>
+            • Cara azulada o muy pálida<br>
+            • Boca abierta sin sonido<br>
+            • <strong>ACTÚA INMEDIATAMENTE: 5 golpes en espalda + 5 compresiones torácicas</strong>
+          </div>
+        </div>
+        <p class="muted mt"><strong>El botón SOS incluye la maniobra de desobstrucción y llamada a emergencias.</strong></p>
+        <p class="muted">Fuente: <a href="https://www.redcross.org.uk/first-aid/learn-first-aid/choking-child" target="_blank" rel="noopener">Cruz Roja Británica - Choking</a></p>
+      </div>
+
+      <div class="card">
+        <h2 class="h2">Presentación segura de alimentos</h2>
+        <ul class="info-list">
+          <li><strong>Forma de dedo:</strong> Cortar alimentos en tiras del tamaño del dedo del bebé para agarre palmar (6-8 meses).</li>
+          <li><strong>Muy maduro/cocido:</strong> Los alimentos deben poder chafarse fácilmente entre tus dedos.</li>
+          <li><strong>Sin formas redondas pequeñas:</strong> Uvas, tomates cherry y aceitunas SIEMPRE cortados en cuartos longitudinales.</li>
+          <li><strong>Sin trozos duros:</strong> Zanahoria cruda, manzana cruda son peligrosos. Cocinar hasta que estén blandos.</li>
+          <li><strong>Supervisión constante:</strong> NUNCA dejar al bebé solo mientras come.</li>
+          <li><strong>Posición correcta:</strong> Sentado erguido en trona, pies apoyados, mirando hacia adelante.</li>
+        </ul>
+        <p class="muted mt">Fuente: <a href="https://solidstarts.com/starting-solids/safety/" target="_blank" rel="noopener">Solid Starts - Safety</a></p>
+      </div>
+
+      <div class="card">
+        <h2 class="h2">Perfil del bebé</h2>
+        <form id="baby-profile-form">
+          <label class="label" for="baby-birthdate">Fecha de nacimiento *</label>
+          <input id="baby-birthdate" class="input" type="date" required />
+
+          <div style="height:12px"></div>
+          <label class="label" for="baby-gestation-weeks">Semanas de gestación (si prematuro)</label>
+          <input id="baby-gestation-weeks" class="input" type="number" min="22" max="42" inputmode="numeric" placeholder="Ej: 35 (dejar vacío si ≥37 semanas)" />
+
+          <div style="height:12px"></div>
+          <label class="label" for="baby-duedate">Fecha probable de parto - FPP (solo si &lt;37 semanas)</label>
+          <input id="baby-duedate" class="input" type="date" />
+
+          <div style="height:16px"></div>
+          <button id="baby-profile-save" class="btn btn-primary" type="submit">Guardar perfil</button>
+        </form>
+        <p id="baby-safe-age" class="muted" style="margin:12px 0 0"></p>
+      </div>
+
+      <div class="card">
+        <h2 class="h2">Backup de datos</h2>
+        <p class="muted mb">Exporta tus datos para guardarlos o transferirlos a otro dispositivo. Importar sobrescribe TODOS los datos actuales.</p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center">
+          <button id="backup-export" class="btn" type="button">Exportar JSON</button>
+          <input id="backup-file" class="input" type="file" accept="application/json" style="max-width:260px" aria-label="Seleccionar archivo de backup" />
+          <button id="backup-import" class="btn btn-danger" type="button">Importar</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 class="h2">Sobre esta app</h2>
+        <p class="muted">
+          BLW Care es una Progressive Web App (PWA) que funciona sin conexión. 
+          Todos los datos se guardan localmente en tu dispositivo y nunca se envían a ningún servidor.
+        </p>
+        <p class="muted mt">
+          <strong>Versión:</strong> 1.0.0<br>
+          <strong>Desarrollada con:</strong> ❤️ para familias BLW
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <nav class="tabs" aria-label="Navegación principal">
+    <button class="tab is-active" data-route="calendar" type="button">Diario</button>
+    <button class="tab" data-route="allergies" type="button">Alergias</button>
+    <button class="tab" data-route="foods" type="button">Alimentos</button>
+    <button class="tab" data-route="recipes" type="button">Recetas</button>
+    <button class="tab" data-route="info" type="button">Info</button>
+  </nav>
+
+  <button id="sos-button" class="sos" type="button" aria-label="Botón de emergencia SOS - Atragantamiento">SOS</button>
+
+  <div id="modal-root" class="modal-root" aria-live="polite"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

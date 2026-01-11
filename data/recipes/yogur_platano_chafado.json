@@ -1,0 +1,35 @@
+{
+  "id": "yogur_platano_chafado",
+  "nombre": "Yogur con plátano chafado",
+  "edad_minima": 6,
+  "tiempo_preparacion": "3 minutos",
+  "alergenos": ["lacteos"],
+  "ingredientes": [
+    "2-3 cucharadas de yogur natural sin azúcar (preferiblemente griego por su textura espesa)",
+    "1/2 plátano muy maduro (con pintas marrones)"
+  ],
+  "preparacion": [
+    "Pela el plátano y colócalo en un bol.",
+    "Aplasta el plátano con un tenedor hasta conseguir la textura deseada.",
+    "Añade el yogur natural y mezcla bien.",
+    "Puede quedar con pequeños grumos de plátano, no es necesario que sea totalmente liso."
+  ],
+  "textura": "Cremosa y espesa con posibles grumos de plátano. Fácil de comer con cuchara o manos.",
+  "como_servir": [
+    "En cuchara precargada que el bebé se lleve solo a la boca.",
+    "En cuenco con ventosa para que explore con las manos.",
+    "El yogur griego es más espeso y gotea menos.",
+    "Cantidad pequeña para empezar (2-3 cucharadas)."
+  ],
+  "notas_seguridad": [
+    "ALÉRGENO (lácteos): Los lácteos son uno de los 14 alérgenos principales.",
+    "Introducir cuando el bebé esté sano, durante el día.",
+    "Usar SOLO yogur natural sin azúcar añadido.",
+    "NUNCA añadir miel (riesgo de botulismo en menores de 12 meses).",
+    "El plátano debe estar muy maduro para evitar estreñimiento."
+  ],
+  "fuente": {
+    "nombre": "NHS UK - What to feed young children",
+    "url": "https://www.nhs.uk/conditions/baby/weaning-and-feeding/what-to-feed-young-children/"
+  }
+}

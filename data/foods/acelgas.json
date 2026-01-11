@@ -1,0 +1,33 @@
+{
+  "id": "acelgas",
+  "nombre": "Acelgas",
+  "info_nutricional": "Vitaminas A y K, hierro, calcio, magnesio. Fuente: AESAN - https://www.aesan.gob.es/",
+  "nivel_riesgo": "bajo",
+  "fuente": "AESAN, AEP",
+  "presentaciones": [
+    {
+      "edad_meses": 12,
+      "titulo": "Cocidas y picadas",
+      "descripcion": "Cocer bien y picar. Mejor la parte verde, el tallo puede ser fibroso.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 12,
+      "titulo": "En purés o cremas",
+      "descripcion": "Añadir a purés con otros vegetales.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Acelgas crudas",
+    "Antes de los 12 meses (nitratos)",
+    "Recalentar (acumulan nitratos)"
+  ],
+  "recetas_sugeridas": [
+    "Acelgas con patata",
+    "Crema de acelgas"
+  ],
+  "advertencia": "⚠️ Por su alto contenido en nitratos, la AESAN recomienda no introducir acelgas antes de los 12 meses. No dar más de una ración al día. No recalentar. Fuente: AESAN"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "brocoli_vapor_aove",
+  "nombre": "Brócoli al vapor con AOVE",
+  "edad_minima": 6,
+  "alergenos": [],
+  "ingredientes": [
+    "Floretes de brócoli",
+    "Aceite de oliva virgen extra"
+  ],
+  "preparacion": [
+    "Selecciona floretes de brócoli con el tallo largo (sirve de mango).",
+    "Coloca en una vaporera sobre agua hirviendo.",
+    "Cocina al vapor 8-10 minutos hasta que esté tierno pero mantenga su forma.",
+    "Comprueba que se deshaga fácilmente al presionar.",
+    "Aliña con unas gotas de AOVE."
+  ],
+  "textura": "Tierno pero que mantenga forma. El tallo del florete actúa como mango natural para BLW.",
+  "como_servir": [
+    "Ofrecer el florete entero con el tallo como agarre.",
+    "El bebé lo sostiene por el tallo y muerde/chupa el florete."
+  ],
+  "notas_seguridad": [
+    "Sin sal.",
+    "Comprobar que está suficientemente blando antes de ofrecer.",
+    "Supervisar siempre."
+  ],
+  "fuente": "NHS UK Start for Life - https://www.nhs.uk/start-for-life/weaning/"
+}

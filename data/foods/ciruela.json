@@ -1,0 +1,34 @@
+{
+  "id": "ciruela",
+  "nombre": "Ciruela",
+  "info_nutricional": "Fibra (ayuda al estreñimiento), vitaminas C y K, potasio. Fuente: NHS UK - https://www.nhs.uk/start-for-life/weaning/",
+  "nivel_riesgo": "bajo",
+  "fuente": "NHS UK, Solid Starts",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Ciruela madura sin hueso en gajos",
+      "descripcion": "Elegir ciruelas muy maduras. Quitar hueso y cortar en gajos grandes o en mitades.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Ciruela cocida/asada",
+      "descripcion": "Si no está muy madura, cocer brevemente para ablandar.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Ciruela con hueso (riesgo de atragantamiento)",
+    "Ciruela dura/verde",
+    "Ciruelas pasas enteras (dar cortadas o muy hidratadas)"
+  ],
+  "recetas_sugeridas": [
+    "Ciruela chafada",
+    "Compota de ciruela",
+    "Ciruela con avena"
+  ],
+  "nota_extra": "Las ciruelas son excelentes para bebés con tendencia al estreñimiento."
+}

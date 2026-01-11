@@ -1,0 +1,31 @@
+{
+  "id": "salmon_horno",
+  "nombre": "Salmón al horno en tiras",
+  "edad_minima": 6,
+  "alergenos": ["pescado"],
+  "ingredientes": [
+    "1 filete de salmón fresco (sin espinas)",
+    "1 cucharadita de aceite de oliva virgen extra",
+    "Unas gotas de zumo de limón (opcional)"
+  ],
+  "preparacion": [
+    "Precalienta el horno a 180°C.",
+    "REVISA MUY BIEN que el salmón no tenga espinas. Pasa los dedos por toda la superficie.",
+    "Coloca el salmón en una bandeja de horno con un poco de AOVE.",
+    "Hornea 12-15 minutos hasta que esté completamente cocido y se deshaga fácilmente.",
+    "Deja enfriar y desmenuza o corta en tiras.",
+    "Revisa una vez más que no haya espinas."
+  ],
+  "textura": "Tierno y jugoso, se deshace fácilmente.",
+  "como_servir": [
+    "En tiras grandes del tamaño de un dedo para agarrar.",
+    "Desmenuzado sobre puré de patata o verduras."
+  ],
+  "notas_seguridad": [
+    "REVISAR ESPINAS CON MUCHO CUIDADO (2 veces mínimo).",
+    "Sin sal.",
+    "El pescado es un alérgeno común. Primera introducción con cantidad pequeña.",
+    "Supervisar siempre."
+  ],
+  "fuente": "AEP, NHS UK"
+}

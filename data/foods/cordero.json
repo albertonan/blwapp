@@ -1,0 +1,40 @@
+{
+  "id": "cordero",
+  "nombre": "Cordero",
+  "info_nutricional": "Hierro hemo, zinc, vitamina B12, proteína. Sabor más intenso. Fuente: NHS UK - https://www.nhs.uk/start-for-life/weaning/",
+  "nivel_riesgo": "bajo",
+  "fuente": "NHS UK, Solid Starts",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Cordero tierno en tiras",
+      "descripcion": "Usar cortes tiernos (pierna deshuesada). Cocinar bien y cortar en tiras.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Cordero guisado desmenuzado",
+      "descripcion": "La cocción lenta lo hace muy tierno. Desmenuzar para el bebé.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Costilla de cordero (como mango)",
+      "descripcion": "El hueso de la costilla sirve de mango. SIEMPRE supervisar. El bebé chupa/muerde la carne.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Cordero crudo o poco hecho",
+    "Grasa excesiva",
+    "Huesos pequeños o astillas"
+  ],
+  "recetas_sugeridas": [
+    "Cordero guisado con verduras",
+    "Albóndigas de cordero",
+    "Costilla de cordero al horno"
+  ]
+}

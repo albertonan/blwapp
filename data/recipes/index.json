@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "fuente": "Recetas basadas en recomendaciones de NHS UK, AEP y Solid Starts. Sin sal, azúcar ni miel.",
+  "recipes": [
+    {
+      "id": "pure_aguacate_platano",
+      "nombre": "Puré de aguacate y plátano",
+      "edad_minima": 6,
+      "alergenos": [],
+      "ingredientes": ["aguacate", "plátano"],
+      "path": "data/recipes/pure_aguacate_platano.json"
+    },
+    {
+      "id": "tortilla_tiras",
+      "nombre": "Tortilla francesa en tiras",
+      "edad_minima": 6,
+      "alergenos": ["huevo"],
+      "ingredientes": ["huevo"],
+      "path": "data/recipes/tortilla_tiras.json"
+    },
+    {
+      "id": "yogur_platano_chafado",
+      "nombre": "Yogur con plátano chafado",
+      "edad_minima": 6,
+      "alergenos": ["leche"],
+      "ingredientes": ["yogur", "plátano"],
+      "path": "data/recipes/yogur_platano_chafado.json"
+    },
+    {
+      "id": "tortitas_avena_platano",
+      "nombre": "Tortitas de avena y plátano",
+      "edad_minima": 6,
+      "alergenos": ["huevo", "gluten"],
+      "ingredientes": ["avena", "plátano", "huevo"],
+      "path": "data/recipes/tortitas_avena_platano.json"
+    },
+    {
+      "id": "brocoli_vapor_aove",
+      "nombre": "Brócoli al vapor con AOVE",
+      "edad_minima": 6,
+      "alergenos": [],
+      "ingredientes": ["brócoli", "aceite de oliva"],
+      "path": "data/recipes/brocoli_vapor_aove.json"
+    },
+    {
+      "id": "boniato_asado",
+      "nombre": "Bastones de boniato asado",
+      "edad_minima": 6,
+      "alergenos": [],
+      "ingredientes": ["boniato", "aceite de oliva"],
+      "path": "data/recipes/boniato_asado.json"
+    },
+    {
+      "id": "hummus_casero",
+      "nombre": "Hummus casero (sin sal)",
+      "edad_minima": 6,
+      "alergenos": ["sesamo"],
+      "ingredientes": ["garbanzos", "tahini", "limón", "aceite de oliva"],
+      "path": "data/recipes/hummus_casero.json"
+    },
+    {
+      "id": "salmon_horno",
+      "nombre": "Salmón al horno en tiras",
+      "edad_minima": 6,
+      "alergenos": ["pescado"],
+      "ingredientes": ["salmón", "limón", "aceite de oliva"],
+      "path": "data/recipes/salmon_horno.json"
+    },
+    {
+      "id": "pollo_tiras",
+      "nombre": "Pollo a la plancha en tiras",
+      "edad_minima": 6,
+      "alergenos": [],
+      "ingredientes": ["pollo", "aceite de oliva"],
+      "path": "data/recipes/pollo_tiras.json"
+    },
+    {
+      "id": "crema_calabaza",
+      "nombre": "Crema de calabaza",
+      "edad_minima": 6,
+      "alergenos": [],
+      "ingredientes": ["calabaza", "zanahoria", "aceite de oliva"],
+      "path": "data/recipes/crema_calabaza.json"
+    },
+    {
+      "id": "pasta_tomate",
+      "nombre": "Pasta con salsa de tomate casera",
+      "edad_minima": 6,
+      "alergenos": ["gluten"],
+      "ingredientes": ["pasta", "tomate", "aceite de oliva"],
+      "path": "data/recipes/pasta_tomate.json"
+    },
+    {
+      "id": "porridge_manzana",
+      "nombre": "Porridge de avena con manzana",
+      "edad_minima": 6,
+      "alergenos": ["gluten"],
+      "ingredientes": ["avena", "manzana", "canela"],
+      "path": "data/recipes/porridge_manzana.json"
+    },
+    {
+      "id": "lentejas_verduras",
+      "nombre": "Lentejas con verduras",
+      "edad_minima": 6,
+      "alergenos": [],
+      "ingredientes": ["lentejas", "zanahoria", "calabacín", "tomate"],
+      "path": "data/recipes/lentejas_verduras.json"
+    },
+    {
+      "id": "albondigas_ternera",
+      "nombre": "Albóndigas de ternera caseras",
+      "edad_minima": 6,
+      "alergenos": ["huevo"],
+      "ingredientes": ["ternera", "huevo", "pan rallado"],
+      "path": "data/recipes/albondigas_ternera.json"
+    },
+    {
+      "id": "tostada_aguacate",
+      "nombre": "Tostada con aguacate",
+      "edad_minima": 6,
+      "alergenos": ["gluten"],
+      "ingredientes": ["pan", "aguacate", "limón"],
+      "path": "data/recipes/tostada_aguacate.json"
+    },
+    {
+      "id": "fresas_yogur",
+      "nombre": "Fresas con yogur",
+      "edad_minima": 6,
+      "alergenos": ["leche"],
+      "ingredientes": ["fresas", "yogur"],
+      "path": "data/recipes/fresas_yogur.json"
+    },
+    {
+      "id": "compota_pera",
+      "nombre": "Compota de pera casera",
+      "edad_minima": 6,
+      "alergenos": [],
+      "ingredientes": ["pera", "canela"],
+      "path": "data/recipes/compota_pera.json"
+    },
+    {
+      "id": "arroz_pollo",
+      "nombre": "Arroz con pollo y verduras",
+      "edad_minima": 6,
+      "alergenos": [],
+      "ingredientes": ["arroz", "pollo", "zanahoria", "guisantes"],
+      "path": "data/recipes/arroz_pollo.json"
+    }
+  ]
+}

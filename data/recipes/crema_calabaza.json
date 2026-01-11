@@ -1,0 +1,32 @@
+{
+  "id": "crema_calabaza",
+  "nombre": "Crema de calabaza",
+  "edad_minima": 6,
+  "alergenos": [],
+  "ingredientes": [
+    "300g de calabaza",
+    "1 zanahoria mediana",
+    "1 cucharada de aceite de oliva virgen extra",
+    "Agua o caldo casero sin sal"
+  ],
+  "preparacion": [
+    "Pela y trocea la calabaza y la zanahoria.",
+    "Coloca en una olla y cubre con agua.",
+    "Cocina a fuego medio 20-25 minutos hasta que estén muy tiernas.",
+    "Escurre (reservando parte del líquido) y tritura con batidora.",
+    "Añade líquido de cocción hasta conseguir la textura deseada.",
+    "Aliña con AOVE antes de servir."
+  ],
+  "textura": "Crema suave y aterciopelada.",
+  "como_servir": [
+    "En cuchara precargada que el bebé coja solo.",
+    "En un bol pequeño para que explore con las manos.",
+    "Como base para mojar bastones de pan tostado."
+  ],
+  "notas_seguridad": [
+    "Sin sal.",
+    "Comprobar temperatura antes de servir.",
+    "Supervisar siempre."
+  ],
+  "fuente": "NHS UK Start for Life"
+}

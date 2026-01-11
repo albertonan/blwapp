@@ -1,0 +1,29 @@
+{
+  "id": "atun_fresco",
+  "nombre": "Atún fresco",
+  "info_nutricional": "Proteína, omega-3, hierro, vitaminas B. ATENCIÓN: contiene mercurio. Fuente: AESAN - https://www.aesan.gob.es/",
+  "nivel_riesgo": "alto",
+  "fuente": "AESAN, AEP",
+  "presentaciones": [
+    {
+      "edad_meses": 10,
+      "titulo": "Atún fresco en tiras (ocasional)",
+      "descripcion": "Cocinar bien. Ofrecer solo ocasionalmente por el contenido de mercurio. Máx 1 vez por semana.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Atún crudo (sushi/tataki)",
+    "Atún en conserva con sal",
+    "Consumo frecuente (mercurio)"
+  ],
+  "recetas_sugeridas": [
+    "Atún a la plancha ocasional"
+  ],
+  "advertencia": "⚠️ IMPORTANTE: El atún (y otros pescados grandes) contiene mercurio. La AESAN recomienda limitar su consumo en bebés y niños pequeños. Preferir pescados pequeños (merluza, lenguado) como opción habitual. Fuente: AESAN",
+  "alergeno": {
+    "es_alergeno": true,
+    "categoria": "pescado"
+  }
+}

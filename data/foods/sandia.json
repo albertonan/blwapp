@@ -1,0 +1,33 @@
+{
+  "id": "sandia",
+  "nombre": "Sandía",
+  "info_nutricional": "Hidratación (92% agua), vitaminas A y C, licopeno. Fuente: Solid Starts - https://solidstarts.com/foods/watermelon/",
+  "nivel_riesgo": "bajo",
+  "fuente": "Solid Starts, NHS UK",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Tira grande sin semillas",
+      "descripcion": "Cortar tiras grandes rectangulares. SIEMPRE retirar todas las semillas (riesgo de atragantamiento).",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Cubos sin semillas",
+      "descripcion": "Cubos del tamaño apropiado para la pinza. Sin semillas.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Con semillas (SIEMPRE retirar todas)",
+    "Trozos muy pequeños en bebés sin pinza"
+  ],
+  "recetas_sugeridas": [
+    "Sandía fresca en tiras",
+    "Polo de sandía casero (en red de alimentación)",
+    "Sandía con yogur"
+  ],
+  "nota_extra": "Ideal para días de calor. La textura es fácil de masticar con las encías."
+}

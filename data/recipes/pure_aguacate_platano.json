@@ -1,0 +1,33 @@
+{
+  "id": "pure_aguacate_platano",
+  "nombre": "Puré de aguacate y plátano",
+  "edad_minima": 6,
+  "tiempo_preparacion": "5 minutos",
+  "alergenos": [],
+  "ingredientes": [
+    "1/2 aguacate muy maduro",
+    "1/2 plátano maduro (con pintas marrones)"
+  ],
+  "preparacion": [
+    "Corta el aguacate por la mitad, retira el hueso y saca la pulpa con una cuchara.",
+    "Pela el plátano y córtalo en trozos.",
+    "Aplasta ambas frutas juntas con un tenedor hasta conseguir la textura deseada.",
+    "Puede quedar con pequeños grumos, no hace falta que sea completamente liso."
+  ],
+  "textura": "Puré espeso con posibles grumos. Textura cremosa y suave.",
+  "como_servir": [
+    "En cuchara precargada que el bebé pueda llevarse a la boca solo.",
+    "En un cuenco estable con ventosa para que explore con las manos.",
+    "Untado sobre una tostada de pan sin sal para bebés mayores de 6 meses."
+  ],
+  "notas_seguridad": [
+    "Sin sal, azúcar ni miel añadidos.",
+    "Ambas frutas deben estar muy maduras y blandas.",
+    "Supervisar siempre durante la comida.",
+    "El aguacate y plátano deben poder chafarse fácilmente con el dedo."
+  ],
+  "fuente": {
+    "nombre": "Solid Starts",
+    "url": "https://solidstarts.com/foods/avocado/"
+  }
+}

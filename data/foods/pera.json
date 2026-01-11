@@ -1,0 +1,40 @@
+{
+  "id": "pera",
+  "nombre": "Pera",
+  "info_nutricional": "Fibra soluble, vitamina C, potasio. Baja en alérgenos. Fuente: AEP - https://www.aeped.es/comite-nutricion-y-lactancia-materna/nutricion-infantil/documentos/recomendaciones-sobre-alimentacion",
+  "nivel_riesgo": "bajo",
+  "fuente": "AEP, NHS UK",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Pera muy madura en bastones",
+      "descripcion": "Elegir pera muy madura (tipo conferencia) que se deshaga al apretar. Cortar en bastones del tamaño de un dedo adulto.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Pera cocida al vapor",
+      "descripcion": "Si no está muy madura, cocer al vapor 5-10 min hasta que esté blanda.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Trozos más pequeños",
+      "descripcion": "A partir de 9 meses, se pueden ofrecer trozos más pequeños si el bebé domina la pinza.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Pera dura o poco madura cruda",
+    "Trozos pequeños y resbaladizos",
+    "Rodajas finas"
+  ],
+  "recetas_sugeridas": [
+    "Pera cocida con canela",
+    "Puré de pera",
+    "Pera con yogur natural"
+  ]
+}

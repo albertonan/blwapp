@@ -1,0 +1,39 @@
+{
+  "id": "calabacin",
+  "nombre": "Calabacín",
+  "info_nutricional": "Vitaminas C y B6, potasio, fibra. Bajo en calorías, muy hidratante. Fuente: Solid Starts - https://solidstarts.com/foods/zucchini/",
+  "nivel_riesgo": "bajo",
+  "fuente": "Solid Starts, NHS UK",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Bastones cocidos al vapor",
+      "descripcion": "Cortar en bastones gruesos (tipo dedo adulto). Cocer al vapor 6-8 min hasta que esté blando pero no deshecho.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Rodajas gruesas a la plancha",
+      "descripcion": "Rodajas de 1cm de grosor, ligeramente a la plancha con aceite de oliva.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Cubos pequeños",
+      "descripcion": "Cubos cocidos del tamaño apropiado para la pinza.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Calabacín crudo (difícil de masticar para bebés)",
+    "Trozos muy pequeños y resbaladizos"
+  ],
+  "recetas_sugeridas": [
+    "Calabacín al vapor con AOVE",
+    "Tortilla de calabacín",
+    "Crema de calabacín"
+  ]
+}

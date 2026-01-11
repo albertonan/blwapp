@@ -1,0 +1,33 @@
+{
+  "id": "aceite_oliva",
+  "nombre": "Aceite de oliva virgen extra",
+  "info_nutricional": "Grasas monoinsaturadas saludables, vitamina E, antioxidantes, omega-9. Fuente: AEP - https://www.aeped.es/",
+  "nivel_riesgo": "bajo",
+  "fuente": "AEP, Dieta Mediterránea",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Añadido a comidas",
+      "descripcion": "Añadir unas gotas o una cucharadita a purés, verduras, pasta o cualquier comida. Excelente para aumentar calorías y mejorar absorción de vitaminas.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Para cocinar",
+      "descripcion": "Usar para cocinar a temperaturas moderadas o añadir en crudo.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Aceites refinados de baja calidad como alternativa principal",
+    "Exceso de aceite (aunque es saludable, con moderación)"
+  ],
+  "recetas_sugeridas": [
+    "Verduras al vapor con AOVE",
+    "Puré con un chorrito de AOVE",
+    "Pasta con AOVE"
+  ],
+  "nota_extra": "El aceite de oliva virgen extra es el gold standard de la dieta mediterránea. Excelente para bebés desde los 6 meses. Fuente: AEP"
+}

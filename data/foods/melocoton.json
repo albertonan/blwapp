@@ -1,0 +1,40 @@
+{
+  "id": "melocoton",
+  "nombre": "Melocotón",
+  "info_nutricional": "Vitaminas A y C, potasio, fibra. Fuente: Solid Starts - https://solidstarts.com/foods/peach/",
+  "nivel_riesgo": "bajo",
+  "fuente": "Solid Starts, NHS UK",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Melocotón muy maduro en gajos",
+      "descripcion": "Pelar y cortar en gajos grandes. Debe estar muy maduro y blando.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Melocotón al vapor",
+      "descripcion": "Si no está suficientemente maduro, cocinar al vapor hasta ablandar.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Trozos medianos",
+      "descripcion": "Trozos del tamaño de un dado grande cuando domine la pinza.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Melocotón duro o verde",
+    "Con piel (puede ser difícil de manejar)",
+    "Trozos pequeños y resbaladizos"
+  ],
+  "recetas_sugeridas": [
+    "Melocotón chafado",
+    "Melocotón con yogur",
+    "Compota de melocotón casera"
+  ]
+}

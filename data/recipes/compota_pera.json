@@ -1,0 +1,32 @@
+{
+  "id": "compota_pera",
+  "nombre": "Compota de pera casera",
+  "edad_minima": 6,
+  "alergenos": [],
+  "ingredientes": [
+    "2 peras maduras",
+    "Una pizca de canela (opcional)",
+    "2-3 cucharadas de agua"
+  ],
+  "preparacion": [
+    "Pela las peras, quita el corazón y córtalas en trozos.",
+    "Coloca en un cazo con el agua.",
+    "Cocina a fuego bajo 10-15 minutos hasta que estén muy blandas.",
+    "Tritura con batidora o tenedor según la textura deseada.",
+    "Añade canela si lo deseas.",
+    "Deja enfriar antes de servir."
+  ],
+  "textura": "Puré suave o con algunos grumos, según preferencia.",
+  "como_servir": [
+    "En cuchara precargada.",
+    "Como acompañamiento de yogur o avena.",
+    "Mezclada con otros purés de frutas."
+  ],
+  "notas_seguridad": [
+    "Sin azúcar ni miel.",
+    "La pera ya es naturalmente dulce.",
+    "Comprobar temperatura antes de servir.",
+    "Supervisar siempre."
+  ],
+  "fuente": "NHS UK"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "arroz_pollo",
+  "nombre": "Arroz con pollo y verduras",
+  "edad_minima": 6,
+  "alergenos": [],
+  "ingredientes": [
+    "50g de arroz",
+    "50g de pollo (muslo deshuesado)",
+    "1 zanahoria pequeña",
+    "2 cucharadas de guisantes cocidos",
+    "1 cucharada de AOVE",
+    "Agua o caldo casero sin sal"
+  ],
+  "preparacion": [
+    "Corta el pollo en trozos pequeños y cocínalo completamente en sartén con AOVE.",
+    "Pela y pica la zanahoria muy fina.",
+    "Cuece el arroz con la zanahoria 15-20 min hasta que estén muy tiernos.",
+    "Chafa los guisantes ligeramente.",
+    "Desmenuza el pollo y mézclalo todo.",
+    "Añade un poco de agua si queda muy seco."
+  ],
+  "textura": "Arroz pegajoso con pollo desmenuzado y verduras blandas.",
+  "como_servir": [
+    "Formar bolitas con las manos para que el bebé agarre.",
+    "En cuchara precargada.",
+    "Los guisantes siempre chafados para romper forma redonda."
+  ],
+  "notas_seguridad": [
+    "Sin sal.",
+    "El pollo debe estar completamente cocido.",
+    "Los guisantes SIEMPRE chafados en bebés pequeños.",
+    "Supervisar siempre."
+  ],
+  "fuente": "AEP, NHS UK"
+}

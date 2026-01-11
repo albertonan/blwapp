@@ -1,0 +1,39 @@
+{
+  "id": "judias_verdes",
+  "nombre": "Judías verdes",
+  "info_nutricional": "Vitaminas A, C y K, fibra, ácido fólico. Fuente: NHS UK - https://www.nhs.uk/start-for-life/weaning/",
+  "nivel_riesgo": "bajo",
+  "fuente": "NHS UK, Solid Starts",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Judías enteras al vapor",
+      "descripcion": "Cocer al vapor hasta que estén muy tiernas (8-12 min). El bebé las agarra por un extremo.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Judías cocidas largas",
+      "descripcion": "Dejar las judías largas para facilitar el agarre.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Cortadas en trozos",
+      "descripcion": "Trozos más pequeños cuando domine la pinza.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Judías verdes crudas",
+    "Judías duras o poco cocidas"
+  ],
+  "recetas_sugeridas": [
+    "Judías verdes al vapor con AOVE",
+    "Judías verdes con patata",
+    "Judías verdes salteadas suaves"
+  ]
+}

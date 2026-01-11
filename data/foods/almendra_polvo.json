@@ -1,0 +1,47 @@
+{
+  "id": "almendra_polvo",
+  "nombre": "Almendra (polvo/harina)",
+  "info_nutricional": "Proteína, grasas saludables, vitamina E, calcio, magnesio. Fuente: NHS UK - https://www.nhs.uk/start-for-life/weaning/",
+  "nivel_riesgo": "alto",
+  "fuente": "NHS UK, AEP, SEICAP (Sociedad Española de Inmunología Clínica y Alergología Pediátrica)",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Harina/polvo de almendra",
+      "descripcion": "Añadir harina de almendra fina a papillas, yogur o frutas. NUNCA dar almendras enteras o en trozos.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Mantequilla de almendras fina",
+      "descripcion": "Mantequilla 100% almendras (sin trozos). Untar en pan o mezclar con otros alimentos. NO dar a cucharadas (riesgo atragantamiento por textura espesa).",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Almendras enteras o en trozos (RIESGO ALTO hasta 4-5 años)",
+    "Almendras laminadas",
+    "Mantequilla de almendras con trozos",
+    "Cucharada de mantequilla sola (espesa)"
+  ],
+  "recetas_sugeridas": [
+    "Yogur con harina de almendras",
+    "Tostada con mantequilla de almendras fina",
+    "Batido con polvo de almendras"
+  ],
+  "alergeno": {
+    "es_alergeno": true,
+    "categoria": "frutos_secos",
+    "nota": "Los frutos secos son alérgenos principales. Introducir en pequeñas cantidades y observar. Consultar pediatra si hay antecedentes familiares de alergia.",
+    "sintomas_alerta": [
+      "Ronchas o urticaria",
+      "Hinchazón de labios, lengua o garganta",
+      "Vómitos",
+      "Dificultad respiratoria",
+      "Tos persistente"
+    ]
+  },
+  "advertencia": "⚠️ FRUTOS SECOS ENTEROS: RIESGO DE ATRAGANTAMIENTO HASTA LOS 4-5 AÑOS. Solo ofrecer en forma de polvo fino o mantequilla sin trozos. Fuente: NHS UK, SEICAP"
+}

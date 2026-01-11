@@ -1,0 +1,41 @@
+{
+  "id": "ternera",
+  "nombre": "Ternera",
+  "info_nutricional": "Excelente fuente de hierro hemo, zinc, vitamina B12, proteína de alta calidad. Fuente: AEP - https://www.aeped.es/comite-nutricion-y-lactancia-materna/nutricion-infantil/documentos/recomendaciones-sobre-alimentacion",
+  "nivel_riesgo": "bajo",
+  "fuente": "AEP, NHS UK",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Tiras de ternera tierna",
+      "descripcion": "Cocinar cortes tiernos (solomillo, lomo) y cortar en tiras gruesas. Debe estar jugosa y tierna.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Carne guisada desmenuzada",
+      "descripcion": "Guisar hasta que esté muy tierna y desmenuzar. La cocción lenta ablanda las fibras.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Hamburguesa casera sin sal",
+      "descripcion": "Hamburguesa casera hecha solo con carne picada, bien cocida pero jugosa.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Carne cruda o poco hecha (bacterias)",
+    "Carne dura o fibrosa",
+    "Embutidos y carnes procesadas"
+  ],
+  "recetas_sugeridas": [
+    "Ternera guisada con zanahoria",
+    "Albóndigas de ternera caseras",
+    "Tiras de solomillo a la plancha"
+  ],
+  "nota_extra": "La carne roja es importante para el aporte de hierro, especialmente a partir de los 6 meses cuando las reservas del bebé disminuyen."
+}

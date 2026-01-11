@@ -1,0 +1,30 @@
+{
+  "id": "pollo_tiras",
+  "nombre": "Pollo a la plancha en tiras",
+  "edad_minima": 6,
+  "alergenos": [],
+  "ingredientes": [
+    "1 pechuga o muslo de pollo deshuesado",
+    "1 cucharada de aceite de oliva virgen extra"
+  ],
+  "preparacion": [
+    "Aplana ligeramente la carne para que tenga grosor uniforme.",
+    "Calienta una sartén a fuego medio-alto con AOVE.",
+    "Cocina el pollo 5-7 minutos por cada lado hasta que esté completamente hecho.",
+    "IMPORTANTE: No debe quedar rosado por dentro. La temperatura interna debe alcanzar 74°C.",
+    "Deja reposar 5 minutos.",
+    "Corta en tiras del grosor de un dedo adulto."
+  ],
+  "textura": "Tierno y jugoso. Si queda seco, añadir un poco de caldo o AOVE.",
+  "como_servir": [
+    "En tiras para agarrar con el puño.",
+    "Desmenuzado si prefiere textura más fácil."
+  ],
+  "notas_seguridad": [
+    "El pollo DEBE estar completamente cocido (sin partes rosadas).",
+    "Sin sal.",
+    "Quitar cartílagos, grasa excesiva y piel crujiente.",
+    "Supervisar siempre."
+  ],
+  "fuente": "NHS UK, AEP"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "tostada_aguacate",
+  "nombre": "Tostada con aguacate",
+  "edad_minima": 6,
+  "alergenos": ["gluten"],
+  "ingredientes": [
+    "1 rebanada de pan (preferiblemente con corteza)",
+    "1/2 aguacate maduro",
+    "Unas gotas de zumo de limón (opcional)"
+  ],
+  "preparacion": [
+    "Tuesta el pan ligeramente (no demasiado duro).",
+    "Chafa el aguacate con un tenedor.",
+    "Opcional: añade unas gotas de limón.",
+    "Unta el aguacate sobre la tostada.",
+    "Corta en tiras del ancho de un dedo."
+  ],
+  "textura": "Tostada crujiente con cobertura cremosa.",
+  "como_servir": [
+    "En tiras para que el bebé agarre.",
+    "La tostada debe estar lo suficientemente blanda para morder con encías."
+  ],
+  "notas_seguridad": [
+    "Sin sal.",
+    "La tostada no debe estar demasiado dura.",
+    "Evitar pan de molde muy blando (hace bola pegajosa).",
+    "Supervisar siempre."
+  ],
+  "fuente": "Solid Starts"
+}

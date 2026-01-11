@@ -1,0 +1,40 @@
+{
+  "id": "naranja",
+  "nombre": "Naranja",
+  "info_nutricional": "Vitamina C, fibra, potasio, folato. Fuente: NHS UK - https://www.nhs.uk/start-for-life/weaning/",
+  "nivel_riesgo": "bajo",
+  "fuente": "NHS UK, Solid Starts",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Gajos grandes sin membrana",
+      "descripcion": "Pelar completamente y quitar la membrana blanca. Ofrecer gajos grandes.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Gajo entero para chupar",
+      "descripcion": "Un gajo grande con parte de la membrana que el bebé pueda chupar/explorar.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Trozos pequeños",
+      "descripcion": "Trozos más pequeños cuando domine la pinza.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Semillas (retirar siempre)",
+    "Zumo solo (mejor la fruta entera para la fibra)",
+    "Exceso de cítricos (pueden irritar)"
+  ],
+  "recetas_sugeridas": [
+    "Gajos de naranja frescos",
+    "Naranja con plátano chafado"
+  ],
+  "nota_extra": "Los cítricos pueden causar irritación alrededor de la boca. No es alergia, es la acidez."
+}

@@ -1,0 +1,40 @@
+{
+  "id": "alubias",
+  "nombre": "Alubias / Judías blancas",
+  "info_nutricional": "Proteína vegetal, fibra, hierro, potasio, ácido fólico. Fuente: NHS UK - https://www.nhs.uk/start-for-life/weaning/",
+  "nivel_riesgo": "bajo",
+  "fuente": "NHS UK, Solid Starts",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Alubias chafadas",
+      "descripcion": "Cocer bien y chafar ligeramente. La textura cremosa es fácil de manejar.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Puré de alubias",
+      "descripcion": "Triturar parcialmente con AOVE.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Alubias enteras (supervisado)",
+      "descripcion": "Son más grandes y blandas que otros legumbres. A partir de 9 meses con supervisión.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Alubias crudas (tóxicas)",
+    "Alubias de bote con sal añadida (enjuagar bien)"
+  ],
+  "recetas_sugeridas": [
+    "Puré de alubias con AOVE",
+    "Fabada suave sin embutidos",
+    "Alubias con verduras"
+  ],
+  "advertencia": "⚠️ Las alubias crudas contienen lectinas tóxicas. SIEMPRE cocer completamente."
+}

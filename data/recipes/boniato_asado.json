@@ -1,0 +1,29 @@
+{
+  "id": "boniato_asado",
+  "nombre": "Bastones de boniato asado",
+  "edad_minima": 6,
+  "alergenos": [],
+  "ingredientes": [
+    "1 boniato mediano",
+    "1 cucharada de aceite de oliva virgen extra"
+  ],
+  "preparacion": [
+    "Precalienta el horno a 200°C.",
+    "Pela el boniato y córtalo en bastones gruesos (del tamaño de un dedo adulto).",
+    "Colócalos en una bandeja de horno y rocía con AOVE.",
+    "Hornea 25-35 minutos, volteando a mitad, hasta que estén muy tiernos.",
+    "Comprueba que se deshagan fácilmente al presionar.",
+    "Deja enfriar antes de servir."
+  ],
+  "textura": "Exterior ligeramente crujiente, interior muy blando y cremoso.",
+  "como_servir": [
+    "En bastones para que el bebé agarre con el puño.",
+    "Chafados con tenedor si prefiere textura más suave."
+  ],
+  "notas_seguridad": [
+    "Sin sal ni azúcar (el boniato ya es naturalmente dulce).",
+    "Comprobar que no esté demasiado caliente antes de servir.",
+    "Supervisar siempre."
+  ],
+  "fuente": "Solid Starts - https://solidstarts.com/foods/sweet-potato/"
+}

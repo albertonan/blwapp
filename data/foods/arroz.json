@@ -1,0 +1,40 @@
+{
+  "id": "arroz",
+  "nombre": "Arroz",
+  "info_nutricional": "Carbohidratos, energía, bajo en alérgenos. Fuente: NHS UK - https://www.nhs.uk/start-for-life/weaning/",
+  "nivel_riesgo": "bajo",
+  "fuente": "NHS UK, AEP",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Arroz muy cocido (pegajoso)",
+      "descripcion": "Cocer hasta que esté blando y pegajoso. Se puede hacer bolas pequeñas o tortas.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Tortitas de arroz",
+      "descripcion": "Hacer tortitas con arroz cocido presionándolo. Son fáciles de agarrar.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Arroz suelto",
+      "descripcion": "Cuando domine la pinza, arroz suelto.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Arroz inflado seco (tortas de arroz comerciales duras)",
+    "Exceso de arroz solo (variar cereales)"
+  ],
+  "recetas_sugeridas": [
+    "Arroz con verduras",
+    "Arroz con pollo desmenuzado",
+    "Tortitas de arroz caseras"
+  ],
+  "nota_extra": "Variar con otros cereales. El arroz puede contener arsénico, por lo que se recomienda variedad. Fuente: NHS UK"
+}

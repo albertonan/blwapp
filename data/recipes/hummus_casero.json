@@ -1,0 +1,33 @@
+{
+  "id": "hummus_casero",
+  "nombre": "Hummus casero (sin sal)",
+  "edad_minima": 6,
+  "alergenos": ["sesamo"],
+  "ingredientes": [
+    "1 bote de garbanzos cocidos (400g), escurridos y enjuagados",
+    "2 cucharadas de tahini (pasta de sésamo)",
+    "Zumo de medio limón",
+    "2-3 cucharadas de aceite de oliva virgen extra",
+    "2-3 cucharadas de agua"
+  ],
+  "preparacion": [
+    "Enjuaga bien los garbanzos para quitar el exceso de sal del bote.",
+    "Coloca todos los ingredientes en un procesador o batidora.",
+    "Tritura hasta obtener una textura cremosa y suave.",
+    "Añade más agua si es necesario para conseguir la consistencia deseada.",
+    "Guarda en la nevera hasta 5 días."
+  ],
+  "textura": "Crema suave y untuosa, perfecta para untar o para que el bebé moje alimentos.",
+  "como_servir": [
+    "Untado en tostada o pan.",
+    "Para mojar bastones de verduras cocidas.",
+    "Mezclado con otras verduras o carnes."
+  ],
+  "notas_seguridad": [
+    "SIN SAL AÑADIDA.",
+    "El tahini (sésamo) es un alérgeno común. Introducir con precaución.",
+    "Si es primera vez con sésamo, ofrecer solo una pequeña cantidad y observar.",
+    "Supervisar siempre."
+  ],
+  "fuente": "NHS UK, Solid Starts"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "garbanzos",
+  "nombre": "Garbanzos",
+  "info_nutricional": "Proteína vegetal, fibra, hierro, zinc, ácido fólico. Fuente: NHS UK - https://www.nhs.uk/start-for-life/weaning/",
+  "nivel_riesgo": "medio",
+  "fuente": "NHS UK, Solid Starts",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Hummus casero (sin sal ni tahini al inicio)",
+      "descripcion": "Triturar garbanzos cocidos con AOVE y un poco de limón. El hummus es excelente para BLW.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Garbanzos chafados",
+      "descripcion": "Aplastar cada garbanzo para romper la forma redonda y quitar la piel exterior si es gruesa.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 12,
+      "titulo": "Garbanzos enteros (con supervisión)",
+      "descripcion": "A partir de 12 meses y cuando mastique bien.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Garbanzos enteros en bebés pequeños (forma redonda = riesgo)",
+    "Garbanzos crudos o poco cocidos",
+    "Hummus comercial (sal y aditivos)"
+  ],
+  "recetas_sugeridas": [
+    "Hummus casero",
+    "Garbanzos con espinacas",
+    "Falafel al horno (sin sal)"
+  ],
+  "advertencia": "⚠️ Los garbanzos enteros tienen forma redonda que representa riesgo. Siempre chafar o triturar para bebés pequeños."
+}

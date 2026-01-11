@@ -1,0 +1,33 @@
+{
+  "id": "brocoli",
+  "nombre": "Brócoli",
+  "info_nutricional": "Vitaminas C y K, fibra, calcio, hierro. Excelente primer alimento BLW. Fuente: NHS UK - https://www.nhs.uk/start-for-life/weaning/what-to-feed-your-baby/fruit-and-vegetables/",
+  "nivel_riesgo": "bajo",
+  "fuente": "NHS UK, Solid Starts, AEP",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Florete grande al vapor",
+      "descripcion": "El 'tallo' del florete actúa como mango natural. Cocer al vapor 8-10 min hasta que esté blando pero mantenga forma.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Floretes más pequeños",
+      "descripcion": "Floretes del tamaño apropiado para la pinza.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Brócoli crudo (duro y difícil de masticar)",
+    "Trozos pequeños sueltos del florete en bebés pequeños"
+  ],
+  "recetas_sugeridas": [
+    "Brócoli al vapor con aceite de oliva",
+    "Brócoli en tortilla",
+    "Puré de brócoli y patata"
+  ],
+  "nota_extra": "El brócoli es uno de los mejores primeros alimentos BLW: el tallo sirve de mango y es muy nutritivo."
+}

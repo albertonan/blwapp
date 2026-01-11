@@ -1,0 +1,39 @@
+{
+  "id": "merluza",
+  "nombre": "Merluza",
+  "info_nutricional": "Proteína de alta calidad, fósforo, vitaminas B. Pescado blanco de sabor suave. Fuente: AEP - https://www.aeped.es/",
+  "nivel_riesgo": "medio",
+  "fuente": "AEP, NHS UK",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Filete de merluza en tiras",
+      "descripcion": "Cocinar al vapor o al horno. Cortar en tiras. REVISAR ESPINAS con mucho cuidado.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Merluza desmenuzada",
+      "descripcion": "Desmenuzar revisando espinas. Textura suave, ideal para primeras introducciones de pescado.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Pescado crudo",
+    "Con espinas (revisar muy bien)",
+    "Rebozados fritos comerciales"
+  ],
+  "recetas_sugeridas": [
+    "Merluza al vapor",
+    "Merluza con verduras",
+    "Croquetas de merluza caseras"
+  ],
+  "alergeno": {
+    "es_alergeno": true,
+    "categoria": "pescado",
+    "nota": "El pescado es alérgeno común. Introducir con precaución.",
+    "sintomas_alerta": ["Ronchas", "Hinchazón", "Vómitos", "Dificultad respiratoria"]
+  }
+}

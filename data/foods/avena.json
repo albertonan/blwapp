@@ -1,0 +1,44 @@
+{
+  "id": "avena",
+  "nombre": "Avena",
+  "info_nutricional": "Fibra soluble (beta-glucanos), hierro, zinc, vitaminas B. Fuente: NHS UK - https://www.nhs.uk/start-for-life/weaning/",
+  "nivel_riesgo": "bajo",
+  "fuente": "NHS UK, Solid Starts",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Porridge/gachas de avena",
+      "descripcion": "Cocer avena con leche materna, fórmula o agua. Textura espesa que se puede dar con cuchara precargada.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Tortitas de avena",
+      "descripcion": "Mezclar avena con plátano y huevo, hacer tortitas en sartén.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Barritas de avena caseras",
+      "descripcion": "Mezclar avena con frutas y hornear en barritas.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Avena con azúcar añadido",
+    "Cereales de avena comerciales procesados"
+  ],
+  "recetas_sugeridas": [
+    "Porridge con plátano",
+    "Tortitas de avena y plátano",
+    "Avena con manzana rallada"
+  ],
+  "alergeno": {
+    "es_alergeno": true,
+    "categoria": "gluten",
+    "nota": "La avena puede contener trazas de gluten por contaminación cruzada. Si hay sospecha de celiaquía, usar avena certificada sin gluten y consultar pediatra."
+  }
+}

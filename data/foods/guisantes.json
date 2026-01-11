@@ -1,0 +1,40 @@
+{
+  "id": "guisantes",
+  "nombre": "Guisantes",
+  "info_nutricional": "Proteína vegetal, fibra, vitaminas A, C y K, hierro. Fuente: Solid Starts - https://solidstarts.com/foods/pea/",
+  "nivel_riesgo": "medio",
+  "fuente": "Solid Starts, NHS UK",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Chafados o aplastados",
+      "descripcion": "IMPORTANTE: Los guisantes enteros pueden ser riesgo. Siempre chafar ligeramente para romper la forma redonda.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "En puré",
+      "descripcion": "Triturar parcialmente para hacer un puré grueso.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 12,
+      "titulo": "Enteros (con supervisión)",
+      "descripcion": "A partir de 12 meses y cuando mastique bien, puede probarlos enteros.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Guisantes enteros en bebés pequeños (forma redonda = riesgo)",
+    "Guisantes congelados sin cocer"
+  ],
+  "recetas_sugeridas": [
+    "Puré de guisantes",
+    "Guisantes chafados con menta",
+    "Guisantes con arroz"
+  ],
+  "advertencia": "⚠️ Los guisantes enteros tienen forma redonda que representa riesgo de atragantamiento. Siempre aplastar."
+}

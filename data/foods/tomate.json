@@ -1,0 +1,41 @@
+{
+  "id": "tomate",
+  "nombre": "Tomate",
+  "info_nutricional": "Vitaminas A y C, licopeno (antioxidante), potasio. Fuente: Solid Starts - https://solidstarts.com/foods/tomato/",
+  "nivel_riesgo": "bajo",
+  "fuente": "Solid Starts, NHS UK",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Tomate cherry cortado en cuartos",
+      "descripcion": "Los tomates cherry SIEMPRE cortados en cuartos (forma redonda = riesgo). Elegir muy maduros.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Tomate grande en gajos",
+      "descripcion": "Gajos grandes de tomate maduro sin semillas ni piel (opcional quitar piel).",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Tomate rallado o triturado",
+      "descripcion": "Para untar en pan o mezclar con otros alimentos.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Tomates cherry enteros (SIEMPRE cortar en cuartos)",
+    "Tomates duros o verdes"
+  ],
+  "recetas_sugeridas": [
+    "Pan con tomate (pa amb tomàquet)",
+    "Tomate con aguacate",
+    "Salsa de tomate casera sin sal"
+  ],
+  "advertencia": "⚠️ Los tomates cherry enteros son riesgo de atragantamiento por su forma redonda. SIEMPRE cortar en cuartos.",
+  "nota_extra": "El tomate puede causar irritación perioral por su acidez. No es una alergia."
+}

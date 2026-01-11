@@ -1,0 +1,40 @@
+{
+  "id": "lentejas",
+  "nombre": "Lentejas",
+  "info_nutricional": "Proteína vegetal, hierro (combinar con vitamina C para mejorar absorción), fibra, ácido fólico. Fuente: AEP - https://www.aeped.es/",
+  "nivel_riesgo": "bajo",
+  "fuente": "AEP, NHS UK",
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Lentejas chafadas/aplastadas",
+      "descripcion": "Cocer bien (las rojas se deshacen más fácil). Chafar ligeramente para romper forma redonda.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Puré de lentejas",
+      "descripcion": "Triturar parcialmente. Añadir AOVE y verduras.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Hamburguesa de lentejas",
+      "descripcion": "Hacer hamburguesas o tortitas con las lentejas cocidas y chafadas.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Lentejas enteras duras sin chafar (forma redonda pequeña)",
+    "Lentejas crudas"
+  ],
+  "recetas_sugeridas": [
+    "Potaje de lentejas suave",
+    "Lentejas con arroz y verduras",
+    "Hamburguesas de lentejas"
+  ],
+  "nota_extra": "Combinar las lentejas con alimentos ricos en vitamina C (pimiento, tomate, naranja) para mejorar la absorción del hierro."
+}

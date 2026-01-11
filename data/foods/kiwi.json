@@ -1,0 +1,41 @@
+{
+  "id": "kiwi",
+  "nombre": "Kiwi",
+  "info_nutricional": "Vitamina C (más que la naranja), vitamina K, fibra, potasio. Fuente: Solid Starts - https://solidstarts.com/foods/kiwi/",
+  "nivel_riesgo": "bajo",
+  "fuente": "Solid Starts, NHS UK",
+  "presentaciones": [
+    {
+      "edad_meses": 8,
+      "titulo": "Media luna grande sin piel",
+      "descripcion": "Pelar completamente y cortar en medias lunas gruesas. El kiwi maduro es blando.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 8,
+      "titulo": "Método 'huevo pasado'",
+      "descripcion": "Cortar la parte superior y dejar que el bebé coma con cuchara directamente de la piel.",
+      "seguro": true,
+      "imagen": null
+    },
+    {
+      "edad_meses": 9,
+      "titulo": "Rodajas o cubos",
+      "descripcion": "Rodajas o cubos cuando domine la pinza.",
+      "seguro": true,
+      "imagen": null
+    }
+  ],
+  "prohibido": [
+    "Con piel (difícil de digerir)",
+    "Kiwi duro/verde",
+    "Trozos pequeños y resbaladizos"
+  ],
+  "recetas_sugeridas": [
+    "Kiwi con yogur",
+    "Kiwi chafado",
+    "Ensalada de frutas blandas"
+  ],
+  "nota_extra": "Se introduce a partir de 8 meses por su acidez. Puede causar irritación perioral (no confundir con alergia)."
+}

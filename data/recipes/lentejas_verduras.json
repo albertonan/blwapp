@@ -1,0 +1,35 @@
+{
+  "id": "lentejas_verduras",
+  "nombre": "Lentejas con verduras",
+  "edad_minima": 6,
+  "alergenos": [],
+  "ingredientes": [
+    "100g de lentejas (las rojas se deshacen más fácil)",
+    "1 zanahoria pequeña",
+    "1/2 calabacín",
+    "1 tomate maduro",
+    "1 cucharada de aceite de oliva virgen extra",
+    "Agua"
+  ],
+  "preparacion": [
+    "Si usas lentejas pardinas, ponlas en remojo la noche anterior.",
+    "Pela y pica fino la zanahoria, calabacín y tomate.",
+    "Sofríe las verduras en AOVE a fuego bajo 5 minutos.",
+    "Añade las lentejas y cubre con agua (el doble de volumen).",
+    "Cocina a fuego medio-bajo 25-40 min hasta que las lentejas estén muy tiernas.",
+    "Chafa ligeramente con tenedor para romper la forma redonda.",
+    "Aliña con un poco más de AOVE."
+  ],
+  "textura": "Guiso espeso con lentejas blandas parcialmente chafadas.",
+  "como_servir": [
+    "Chafadas para romper forma redonda.",
+    "Mezcladas con arroz para formar bolitas.",
+    "En cuchara precargada."
+  ],
+  "notas_seguridad": [
+    "Sin sal.",
+    "Chafar las lentejas ligeramente para evitar riesgo por forma redonda.",
+    "Supervisar siempre."
+  ],
+  "fuente": "AEP, NHS UK"
+}

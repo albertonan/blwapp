@@ -1,0 +1,33 @@
+{
+  "id": "pasta_tomate",
+  "nombre": "Pasta con salsa de tomate casera",
+  "edad_minima": 6,
+  "alergenos": ["gluten"],
+  "ingredientes": [
+    "Pasta de formas grandes (fusilli, penne)",
+    "2 tomates maduros (o 200g tomate triturado)",
+    "1 cucharada de aceite de oliva virgen extra",
+    "1 diente de ajo (opcional, para dar sabor)"
+  ],
+  "preparacion": [
+    "Cuece la pasta más tiempo del indicado (muy blanda para bebés).",
+    "Para la salsa: si usas tomates frescos, pela y tritura.",
+    "Sofríe el ajo en AOVE a fuego bajo 1 minuto (retíralo después).",
+    "Añade el tomate y cocina 15-20 min a fuego bajo hasta que espese.",
+    "Mezcla la pasta con la salsa.",
+    "Deja enfriar antes de servir."
+  ],
+  "textura": "Pasta muy blanda cubierta de salsa suave.",
+  "como_servir": [
+    "Fusilli/rotini son ideales: el bebé los agarra fácilmente.",
+    "Espaguetis muy cocidos también funcionan.",
+    "Servir templado, no caliente."
+  ],
+  "notas_seguridad": [
+    "Sin sal.",
+    "Pasta muy cocida (más blanda de lo normal).",
+    "El gluten es alérgeno. Observar si hay reacciones.",
+    "Supervisar siempre."
+  ],
+  "fuente": "NHS UK, Solid Starts"
+}

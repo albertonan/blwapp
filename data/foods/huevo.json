@@ -1,0 +1,44 @@
+{
+  "id": "huevo",
+  "nombre": "Huevo",
+  "grupo": "proteinas",
+  "edad_minima": 6,
+  "es_alergeno": true,
+  "alergeno_id": "huevo",
+  "info_nutricional": "Proteína completa de alta calidad, colina (esencial para desarrollo cerebral), vitamina D, B12, hierro y zinc. Es uno de los alimentos más nutritivos para bebés.",
+  "nivel_riesgo": "bajo",
+  "fuente": {
+    "nombre": "NHS UK",
+    "url": "https://www.nhs.uk/conditions/baby/weaning-and-feeding/foods-to-avoid-giving-babies-and-young-children/"
+  },
+  "presentaciones": [
+    {
+      "edad_meses": 6,
+      "titulo": "Tortilla en tiras",
+      "descripcion": "Bate el huevo y haz una tortilla fina sin sal. Corta en tiras del tamaño del dedo del bebé. Bien hecha por dentro.",
+      "seguro": true,
+      "imagen": "assets/images/huevo_tiras.svg"
+    },
+    {
+      "edad_meses": 6,
+      "titulo": "Huevo revuelto",
+      "descripcion": "Revuelve el huevo hasta que esté completamente cuajado. Textura suave que el bebé puede coger con las manos.",
+      "seguro": true
+    },
+    {
+      "edad_meses": 8,
+      "titulo": "Huevo duro en cuartos",
+      "descripcion": "Cuece el huevo 10-12 minutos. Pela y corta en cuartos longitudinales. Evita trozos redondos.",
+      "seguro": true
+    }
+  ],
+  "prohibido": [
+    "Huevo crudo o poco hecho (riesgo de salmonela)",
+    "Clara líquida",
+    "Trozos redondos de yema"
+  ],
+  "recetas_sugeridas": [
+    "tortilla_tiras"
+  ],
+  "advertencia": "ALÉRGENO COMÚN. Introducir temprano (desde los 6 meses) puede reducir riesgo de alergia. Comenzar con pequeña cantidad y observar reacciones 2-3 días. El huevo debe estar completamente cocido."
+}
