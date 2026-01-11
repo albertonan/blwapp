@@ -998,6 +998,17 @@ textarea.input {
   background: var(--surface);
 }
 
+@media (max-width: 480px) {
+  .modal-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding-top: calc(var(--spacing-md) + env(safe-area-inset-top));
+    padding-left: calc(var(--spacing) + env(safe-area-inset-left));
+    padding-right: calc(var(--spacing) + env(safe-area-inset-right));
+  }
+}
+
 .modal-title {
   font-size: 1.125rem;
   font-weight: 600;
