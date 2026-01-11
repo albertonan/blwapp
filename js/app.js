@@ -675,15 +675,19 @@ function getDayIcons(dateStr) {
   if (!entries.length) return "";
 
   let hasFood = false;
+  let hasRecipe = false;
+  let hasCustom = false;
   let hasWarn = false;
   let hasLove = false;
   for (const e of entries) {
-    hasFood = true;
+    if (e.entryType === "recipe") hasRecipe = true;
+    else if (e.entryType === "custom") hasCustom = true;
+    else hasFood = true;
     if (e.reaction === "disliked") hasWarn = true;
     if (e.reaction === "liked") hasLove = true;
   }
 
-  return `${hasFood ? "🥦" : ""}${hasWarn ? " ⚠️" : ""}${hasLove ? " ❤️" : ""}`.trim();
+  return `${hasFood ? "🥦" : ""}${hasRecipe ? "🍽️" : ""}${hasCustom ? "✏️" : ""}${hasWarn ? " ⚠️" : ""}${hasLove ? " ❤️" : ""}`.trim();
 }
 
 function formatMonthLabel(year, monthIndex) {
@@ -727,19 +731,48 @@ function renderDayModal(dateStr, editingId) {
 
   const editing = editingId ? entries.find((e) => e && e.id === editingId) : null;
 
+  // Determinar tipo de entrada si estamos editando
+  let editingType = "food";
+  if (editing) {
+    if (editing.entryType === "recipe") editingType = "recipe";
+    else if (editing.entryType === "custom") editingType = "custom";
+    else editingType = "food";
+  }
+
   const optionsFoods = allowedFoods
     .slice()
     .sort((a, b) => String(a.nombre).localeCompare(String(b.nombre), "es"))
     .map((f) => `<option value="${escapeHtml(f.id)}">${escapeHtml(f.nombre)}</option>`)
     .join("");
 
+  // Generar lista de recetas
+  const recipesHtml = recipeIndexCache
+    ? recipeIndexCache
+        .slice()
+        .sort((a, b) => String(a.nombre).localeCompare(String(b.nombre), "es"))
+        .map((r) => `<option value="${escapeHtml(r.id)}">${escapeHtml(r.nombre)}</option>`)
+        .join("")
+    : "";
+
   const listHtml = entries.length
     ? entries
         .slice()
         .sort((a, b) => String(a.createdAt || "").localeCompare(String(b.createdAt || "")))
         .map((e) => {
-          const food = getFoodIndex().find((f) => f.id === e.foodId);
-          const foodName = food ? food.nombre : e.foodId;
+          let itemName = "";
+          let typeIcon = "";
+          if (e.entryType === "recipe") {
+            const recipe = recipeIndexCache?.find((r) => r.id === e.recipeId);
+            itemName = recipe ? recipe.nombre : e.recipeId;
+            typeIcon = "🍽️";
+          } else if (e.entryType === "custom") {
+            itemName = e.customName || "Otro";
+            typeIcon = "✏️";
+          } else {
+            const food = getFoodIndex().find((f) => f.id === e.foodId);
+            itemName = food ? food.nombre : e.foodId;
+            typeIcon = "🥕";
+          }
           const meta = [
             e.quantity ? `Cantidad: ${escapeHtml(e.quantity)}` : null,
             e.form ? `Forma: ${escapeHtml(e.form)}` : null,
@@ -755,7 +788,7 @@ function renderDayModal(dateStr, editingId) {
             <div class="card" style="margin:10px 0 0">
               <div style="display:flex;justify-content:space-between;gap:10px;align-items:flex-start">
                 <div>
-                  <div style="font-weight:700">${escapeHtml(foodName || "Alimento")}</div>
+                  <div style="font-weight:700">${typeIcon} ${escapeHtml(itemName || "Entrada")}</div>
                   <div class="muted" style="font-size:12px">${escapeHtml(meta || "")}</div>
                 </div>
                 <div style="display:flex;gap:8px;flex-wrap:wrap">
@@ -778,12 +811,35 @@ function renderDayModal(dateStr, editingId) {
 
       <input id="day-entry-id" type="hidden" value="${escapeHtml(editing?.id || "")}" />
 
-      <label class="label" for="day-food">Alimento</label>
-      <select id="day-food" class="input">
-        <option value="">Selecciona…</option>
-        ${optionsFoods}
+      <label class="label" for="day-entry-type">Tipo de entrada</label>
+      <select id="day-entry-type" class="input">
+        <option value="food" ${editingType === "food" ? "selected" : ""}>🥕 Alimento</option>
+        <option value="recipe" ${editingType === "recipe" ? "selected" : ""}>🍽️ Receta</option>
+        <option value="custom" ${editingType === "custom" ? "selected" : ""}>✏️ Otro (personalizado)</option>
       </select>
-      <p id="day-allergen-note" class="muted" style="margin:8px 0 0"></p>
+
+      <div id="food-section" style="margin-top:10px;${editingType !== "food" ? "display:none" : ""}">
+        <label class="label" for="day-food">Alimento</label>
+        <select id="day-food" class="input">
+          <option value="">Selecciona…</option>
+          ${optionsFoods}
+        </select>
+        <p id="day-allergen-note" class="muted" style="margin:8px 0 0"></p>
+      </div>
+
+      <div id="recipe-section" style="margin-top:10px;${editingType !== "recipe" ? "display:none" : ""}">
+        <label class="label" for="day-recipe">Receta</label>
+        <select id="day-recipe" class="input">
+          <option value="">Selecciona…</option>
+          ${recipesHtml}
+        </select>
+        <p id="day-recipe-note" class="muted" style="margin:8px 0 0"></p>
+      </div>
+
+      <div id="custom-section" style="margin-top:10px;${editingType !== "custom" ? "display:none" : ""}">
+        <label class="label" for="day-custom">¿Qué comió?</label>
+        <input id="day-custom" class="input" type="text" placeholder="Ej: Papilla de verduras casera, Leche materna..." value="${escapeHtml(editing?.customName || "")}" />
+      </div>
 
       <div style="height:10px"></div>
       <label class="label" for="day-quantity">Cantidad</label>
@@ -800,6 +856,9 @@ function renderDayModal(dateStr, editingId) {
         <option value="soft_whole">Entero blando</option>
         <option value="sticks">Bastones</option>
         <option value="mashed">Chafado</option>
+        <option value="puree">Puré</option>
+        <option value="liquid">Líquido</option>
+        <option value="other">Otra</option>
       </select>
 
       <div style="height:10px"></div>
@@ -816,7 +875,7 @@ function renderDayModal(dateStr, editingId) {
 
       <div style="height:12px"></div>
       <div style="display:flex;gap:10px;flex-wrap:wrap">
-        <button id="day-save" class="btn" type="button">Guardar</button>
+        <button id="day-save" class="btn btn-primary" type="button">Guardar</button>
         ${editing ? '<button id="day-cancel-edit" class="btn" type="button">Cancelar edición</button>' : ""}
       </div>
     </div>
@@ -831,13 +890,31 @@ function renderDayModal(dateStr, editingId) {
   const modal = root?.querySelector(".modal");
   if (!modal) return;
 
+  const entryTypeEl = modal.querySelector("#day-entry-type");
+  const foodSection = modal.querySelector("#food-section");
+  const recipeSection = modal.querySelector("#recipe-section");
+  const customSection = modal.querySelector("#custom-section");
   const foodEl = modal.querySelector("#day-food");
+  const recipeEl = modal.querySelector("#day-recipe");
+  const customEl = modal.querySelector("#day-custom");
   const quantityEl = modal.querySelector("#day-quantity");
   const formEl = modal.querySelector("#day-form");
   const reactionEl = modal.querySelector("#day-reaction");
   const notesEl = modal.querySelector("#day-notes");
   const idEl = modal.querySelector("#day-entry-id");
   const allergenEl = modal.querySelector("#day-allergen-note");
+  const recipeNoteEl = modal.querySelector("#day-recipe-note");
+
+  function updateSections() {
+    const type = entryTypeEl?.value || "food";
+    if (foodSection) foodSection.style.display = type === "food" ? "" : "none";
+    if (recipeSection) recipeSection.style.display = type === "recipe" ? "" : "none";
+    if (customSection) customSection.style.display = type === "custom" ? "" : "none";
+  }
+
+  if (entryTypeEl) {
+    entryTypeEl.addEventListener("change", updateSections);
+  }
 
   function updateAllergenNote() {
     if (!allergenEl || !foodEl) return;
@@ -867,8 +944,25 @@ function renderDayModal(dateStr, editingId) {
     }
   }
 
+  function updateRecipeNote() {
+    if (!recipeNoteEl || !recipeEl) return;
+    const recipeId = recipeEl.value;
+    const recipe = recipeIndexCache?.find((r) => r.id === recipeId);
+    if (recipe && recipe.alergenos && recipe.alergenos.length > 0) {
+      recipeNoteEl.innerHTML = `⚠️ <b>Contiene alérgenos:</b> ${escapeHtml(recipe.alergenos.join(", "))}`;
+    } else {
+      recipeNoteEl.textContent = "";
+    }
+  }
+
   if (editing) {
-    if (foodEl) foodEl.value = editing.foodId || "";
+    if (editing.entryType === "recipe" && recipeEl) {
+      recipeEl.value = editing.recipeId || "";
+    } else if (editing.entryType === "custom" && customEl) {
+      customEl.value = editing.customName || "";
+    } else if (foodEl) {
+      foodEl.value = editing.foodId || "";
+    }
     if (quantityEl) quantityEl.value = editing.quantity || "exploration";
     if (formEl) formEl.value = editing.form || "soft_whole";
     if (reactionEl) reactionEl.value = editing.reaction || "neutral";
@@ -876,7 +970,9 @@ function renderDayModal(dateStr, editingId) {
   }
 
   if (foodEl) foodEl.addEventListener("change", updateAllergenNote);
+  if (recipeEl) recipeEl.addEventListener("change", updateRecipeNote);
   updateAllergenNote();
+  updateRecipeNote();
 
   const saveBtn = modal.querySelector("#day-save");
   if (saveBtn) {
@@ -884,24 +980,45 @@ function renderDayModal(dateStr, editingId) {
       const ok = ensureCalendarAllowedOrExplain();
       if (!ok.ok) return;
 
-      const foodId = (foodEl?.value || "").trim();
-      if (!foodId) {
-        openModal("Falta dato", '<p class="muted">Selecciona un alimento.</p>');
-        return;
-      }
+      const entryType = entryTypeEl?.value || "food";
+      let foodId = "";
+      let recipeId = "";
+      let customName = "";
 
-      const food = getFoodIndex().find((f) => f.id === foodId);
-      const minAge = food ? Number(food.edad_minima) : null;
-      if (food && Number.isFinite(minAge) && minAge > ok.safeMonths) {
-        openModal("Fuera de rango", '<p class="muted">Este alimento está fuera de la edad segura.</p>');
-        return;
+      if (entryType === "food") {
+        foodId = (foodEl?.value || "").trim();
+        if (!foodId) {
+          openModal("Falta dato", '<p class="muted">Selecciona un alimento.</p>');
+          return;
+        }
+        const food = getFoodIndex().find((f) => f.id === foodId);
+        const minAge = food ? Number(food.edad_minima) : null;
+        if (food && Number.isFinite(minAge) && minAge > ok.safeMonths) {
+          openModal("Fuera de rango", '<p class="muted">Este alimento está fuera de la edad segura.</p>');
+          return;
+        }
+      } else if (entryType === "recipe") {
+        recipeId = (recipeEl?.value || "").trim();
+        if (!recipeId) {
+          openModal("Falta dato", '<p class="muted">Selecciona una receta.</p>');
+          return;
+        }
+      } else if (entryType === "custom") {
+        customName = (customEl?.value || "").trim();
+        if (!customName) {
+          openModal("Falta dato", '<p class="muted">Escribe qué comió el bebé.</p>');
+          return;
+        }
       }
 
       const entryId = (idEl?.value || "").trim() || makeId();
       const entry = {
         id: entryId,
         date: dateStr,
-        foodId,
+        entryType,
+        foodId: entryType === "food" ? foodId : "",
+        recipeId: entryType === "recipe" ? recipeId : "",
+        customName: entryType === "custom" ? customName : "",
         quantity: quantityEl?.value || "exploration",
         form: formEl?.value || "soft_whole",
         reaction: reactionEl?.value || "neutral",
@@ -1278,6 +1395,9 @@ function main() {
   if (window.StorageApi && typeof window.StorageApi.getState === "function") {
     window.StorageApi.getState();
   }
+
+  // Pre-cargar el índice de recetas para el modal del calendario
+  loadRecipeIndex().catch((e) => console.warn("No se pudo precargar recetas:", e));
 
   renderFoodList("");
 
