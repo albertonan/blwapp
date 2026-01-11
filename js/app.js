@@ -7,6 +7,9 @@ function escapeHtml(value) {
     .replaceAll("'", "&#039;");
 }
 
+// Imágenes desactivadas temporalmente (no renderizar ni descargar).
+const IMAGES_ENABLED = false;
+
 function getFoodIndex() {
   if (!Array.isArray(window.FOOD_INDEX)) return [];
   return window.FOOD_INDEX;
@@ -339,42 +342,63 @@ function renderFoodModal(foodDetail) {
 
   const edadMin = foodDetail.edad_minima ?? foodDetail.edad_segura_meses ?? "-";
 
+  // Imagen principal del alimento (desactivada)
+  const mainImg =
+    IMAGES_ENABLED && foodDetail.imagen_alimento
+      ? `<div class="food-main-image">
+          <img src="${escapeHtml(foodDetail.imagen_alimento)}" alt="${escapeHtml(foodDetail.nombre)}" loading="lazy" />
+         </div>`
+      : "";
+
   const presHtml = presentaciones
     .map((p) => {
-      const img = p.imagen
-        ? `<div><img src="${escapeHtml(p.imagen)}" alt="" style="max-width:100%;height:auto;border:1px solid var(--border);border-radius:12px" /></div>`
-        : "";
+      const img =
+        IMAGES_ENABLED && p.imagen
+          ? `<div class="presentation-image">
+              <img src="${escapeHtml(p.imagen)}" alt="${escapeHtml(p.titulo || 'Presentación')}" loading="lazy" />
+             </div>`
+          : "";
+
+      const safetyBadge = p.seguro 
+        ? '<span class="badge-safe">✓ Seguro</span>'
+        : '<span class="badge-caution">⚠ Precaución</span>';
 
       return `
-        <div class="card">
-          <div style="display:flex;justify-content:space-between;gap:10px;align-items:flex-start">
-            <div>
-              <div style="font-weight:700">${escapeHtml(p.titulo || "Presentación")}</div>
-              <div class="muted" style="font-size:12px">Desde ${escapeHtml(p.edad_meses)} meses · ${p.seguro ? "seguro" : "precaución"}</div>
-            </div>
-          </div>
-          <p style="margin:10px 0 0">${escapeHtml(p.descripcion || "")}</p>
+        <div class="presentation-card">
           ${img}
+          <div class="presentation-content">
+            <div class="presentation-header">
+              <strong>${escapeHtml(p.titulo || "Presentación")}</strong>
+              ${safetyBadge}
+            </div>
+            <div class="presentation-age">Desde ${escapeHtml(p.edad_meses)} meses</div>
+            <p class="presentation-desc">${escapeHtml(p.descripcion || "")}</p>
+          </div>
         </div>
       `;
     })
     .join("");
 
   const bodyHtml = `
+    ${mainImg}
+    
     <div class="kv">
       <div class="k">Edad segura</div><div>Desde ${escapeHtml(edadMin)} meses</div>
       <div class="k">Riesgo</div><div>${escapeHtml(foodDetail.nivel_riesgo || "-")}</div>
       <div class="k">Nutrición</div><div>${escapeHtml(foodDetail.info_nutricional || "-")}</div>
     </div>
 
-    ${presHtml ? `<h4 style="margin:14px 0 8px">Presentaciones</h4>${presHtml}` : ""}
+    ${presHtml ? `<h4 class="section-title">Cómo cortar por edad</h4><div class="presentations-grid">${presHtml}</div>` : ""}
 
-    ${prohibido.length ? `<h4 style="margin:14px 0 8px">Evitar</h4><ul>${prohibido.map(x => `<li>${escapeHtml(x)}</li>`).join("")}</ul>` : ""}
+    ${prohibido.length ? `<h4 class="section-title">🚫 Evitar</h4><ul class="avoid-list">${prohibido.map(x => `<li>${escapeHtml(x)}</li>`).join("")}</ul>` : ""}
 
-    ${recetas.length ? `<h4 style="margin:14px 0 8px">Ideas</h4><ul>${recetas.map(x => `<li>${escapeHtml(x)}</li>`).join("")}</ul>` : ""}
+    ${recetas.length ? `<h4 class="section-title">💡 Ideas de recetas</h4><ul class="ideas-list">${recetas.map(x => `<li>${escapeHtml(x)}</li>`).join("")}</ul>` : ""}
 
-    <div class="card" style="margin-top:12px">
-      <b>Advertencia:</b> Las arcadas son normales, el atragantamiento NO.
+    ${foodDetail.advertencia ? `<div class="alert alert-warning" style="margin-top:12px"><span class="alert-icon">⚠️</span><div>${escapeHtml(foodDetail.advertencia)}</div></div>` : ""}
+
+    <div class="alert alert-info" style="margin-top:12px">
+      <span class="alert-icon">ℹ️</span>
+      <div><b>Recuerda:</b> Las arcadas son normales, el atragantamiento NO. Si tu bebé tose y hace ruido, está bien.</div>
     </div>
   `;
 

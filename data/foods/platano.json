@@ -6,6 +6,7 @@
   "es_alergeno": false,
   "info_nutricional": "Rico en potasio, vitamina B6, vitamina C y fibra. Carbohidrato natural de fácil digestión. Excelente primer alimento por su dulzor natural.",
   "nivel_riesgo": "bajo",
+  "imagen_alimento": "assets/images/foods/platano/main.jpg",
   "fuente": {
     "nombre": "Solid Starts",
     "url": "https://solidstarts.com/foods/banana/"
@@ -16,19 +17,21 @@
       "titulo": "Mitad con mango de piel",
       "descripcion": "Corta el plátano por la mitad y pela solo la parte superior dejando la piel inferior como mango para que el bebé lo agarre sin que se resbale. El plátano debe estar maduro con pintas marrones.",
       "seguro": true,
-      "imagen": "assets/images/platano_mitad.svg"
+      "imagen": "assets/images/foods/platano/p_00.jpg"
     },
     {
       "edad_meses": 6,
       "titulo": "Tiras largas",
       "descripcion": "Corta el plátano en cuartos longitudinales. Si resbala mucho, reboza ligeramente en copos de avena o coco rallado.",
-      "seguro": true
+      "seguro": true,
+      "imagen": "assets/images/foods/platano/p_01.jpg"
     },
     {
       "edad_meses": 9,
       "titulo": "Rodajas gruesas o trozos",
       "descripcion": "Corta en rodajas gruesas (2cm) o trozos que pueda coger con la pinza.",
-      "seguro": true
+      "seguro": true,
+      "imagen": "assets/images/foods/platano/p_02.jpg"
     }
   ],
   "prohibido": [

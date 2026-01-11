@@ -1,8 +1,12 @@
 {
   "id": "patata",
   "nombre": "Patata",
+  "grupo": "verduras",
+  "edad_minima": 6,
+  "es_alergeno": false,
   "info_nutricional": "Carbohidratos complejos, potasio, vitamina C, vitamina B6. Fuente: NHS UK - https://www.nhs.uk/start-for-life/weaning/",
   "nivel_riesgo": "bajo",
+  "imagen_alimento": "assets/images/foods/patata/main.jpg",
   "fuente": "NHS UK, AEP",
   "presentaciones": [
     {
@@ -10,21 +14,21 @@
       "titulo": "Bastones cocidos o asados",
       "descripcion": "Cortar en bastones gruesos (tipo gajo de patata). Cocer al vapor o asar hasta que esté tierna.",
       "seguro": true,
-      "imagen": null
+      "imagen": "assets/images/foods/patata/p_00.jpg"
     },
     {
       "edad_meses": 6,
       "titulo": "Puré espeso",
       "descripcion": "Puré de patata casero (sin sal, con AOVE o leche materna/fórmula).",
       "seguro": true,
-      "imagen": null
+      "imagen": "assets/images/foods/patata/p_01.jpg"
     },
     {
       "edad_meses": 9,
       "titulo": "Trozos más pequeños",
       "descripcion": "Cubos tiernos del tamaño para pinza.",
       "seguro": true,
-      "imagen": null
+      "imagen": "assets/images/foods/patata/p_02.jpg"
     }
   ],
   "prohibido": [

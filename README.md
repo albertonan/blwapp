@@ -58,6 +58,26 @@ npx serve
 python -m http.server 8080
 ```
 
+## Imágenes offline (descargar en local)
+
+Si has añadido imágenes remotas (por ejemplo, Unsplash) en `data/foods/*.json` y quieres que funcionen **offline**, puedes descargarlas al proyecto y actualizar los JSON para que apunten a rutas locales.
+
+1) Ejecuta el script:
+
+```bash
+python scripts/localize_food_images.py
+```
+
+2) Resultado:
+- Descarga imágenes a `assets/images/foods/<food_id>/...`
+- Reescribe `imagen_alimento` y `presentaciones[].imagen` en los JSON para apuntar a rutas locales
+- Genera `data/images/food-images.json` para que el Service Worker pueda precachear las imágenes
+
+Opciones útiles:
+- `--dry-run` (solo reporta, no descarga ni modifica)
+- `--force` (re-descarga aunque ya exista)
+- `--proxy weserv` (usa un proxy de imágenes si el host original da `503`/rate-limit)
+
 ## Estructura del proyecto
 
 ```

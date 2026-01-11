@@ -6,6 +6,7 @@
   "es_alergeno": false,
   "info_nutricional": "Muy rica en betacaroteno (provitamina A), fibra, vitamina K y potasio. Excelente para la vista y el sistema inmune.",
   "nivel_riesgo": "medio",
+  "imagen_alimento": "assets/images/foods/zanahoria/main.jpg",
   "fuente": {
     "nombre": "Solid Starts",
     "url": "https://solidstarts.com/foods/carrot/"
@@ -16,19 +17,21 @@
       "titulo": "Bastones cocidos muy blandos",
       "descripcion": "Pela y corta en bastones del tamaño del dedo. Cuece al vapor o hervida hasta que se deshaga al presionar con el dedo. Debe estar MUY blanda, no al dente.",
       "seguro": true,
-      "imagen": "assets/images/zanahoria_baston.svg"
+      "imagen": "assets/images/foods/zanahoria/p_00.jpg"
     },
     {
       "edad_meses": 9,
       "titulo": "Trozos pequeños cocidos",
       "descripcion": "Corta en trozos de 1cm bien cocidos. El bebé ya tiene pinza para coger trozos pequeños.",
-      "seguro": true
+      "seguro": true,
+      "imagen": "assets/images/foods/zanahoria/p_01.jpg"
     },
     {
       "edad_meses": 18,
       "titulo": "Zanahoria rallada",
       "descripcion": "A partir de 18 meses puede tomar zanahoria cruda rallada fina en ensaladas.",
-      "seguro": true
+      "seguro": true,
+      "imagen": "assets/images/foods/zanahoria/p_02.jpg"
     }
   ],
   "prohibido": [

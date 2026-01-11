@@ -6,6 +6,7 @@
   "es_alergeno": false,
   "info_nutricional": "Rico en grasas monoinsaturadas saludables, vitamina E, potasio, fibra y ácido fólico. Excelente primer alimento por su textura suave.",
   "nivel_riesgo": "bajo",
+  "imagen_alimento": "assets/images/foods/aguacate/main.jpg",
   "fuente": {
     "nombre": "Solid Starts",
     "url": "https://solidstarts.com/foods/avocado/"
@@ -16,19 +17,21 @@
       "titulo": "Bastón grande (tamaño dedo)",
       "descripcion": "Corta el aguacate maduro en tiras gruesas longitudinales del tamaño de tu dedo. El aguacate debe estar muy maduro y deshacerse fácilmente al presionar. El bebé lo agarrará con el puño y chupará la parte que sobresale.",
       "seguro": true,
-      "imagen": "assets/images/aguacate_baston.svg"
+      "imagen": "assets/images/foods/aguacate/p_00.jpg"
     },
     {
       "edad_meses": 8,
       "titulo": "Trozos medianos",
       "descripcion": "Corta en cubos de 1-2cm. A esta edad desarrollan la pinza y pueden coger trozos más pequeños.",
-      "seguro": true
+      "seguro": true,
+      "imagen": "assets/images/foods/aguacate/p_01.jpg"
     },
     {
       "edad_meses": 12,
       "titulo": "Cualquier forma",
       "descripcion": "A partir del año pueden comer aguacate cortado de cualquier forma, en tostadas, ensaladas, etc.",
-      "seguro": true
+      "seguro": true,
+      "imagen": "assets/images/foods/aguacate/p_02.jpg"
     }
   ],
   "prohibido": [

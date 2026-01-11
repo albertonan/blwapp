@@ -1,6 +1,6 @@
 /* Service Worker: precache de app shell + JSONs modulares de alimentos */
 
-const CACHE_NAME = "blwcare-v3.0";
+const CACHE_NAME = "blwcare-v3.2";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -57,6 +57,8 @@ self.addEventListener("install", (event) => {
       } catch {
         console.warn("SW: No se pudo cargar índice de recetas");
       }
+
+      // 4) Imágenes desactivadas temporalmente (no precache)
 
       await self.skipWaiting();
     })()

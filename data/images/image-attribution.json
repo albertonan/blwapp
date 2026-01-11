@@ -1,0 +1,291 @@
+{
+  "items": [
+    {
+      "foodId": "aguacate",
+      "slot": "presentaciones[0].imagen",
+      "title": "Bastón grande (tamaño dedo)",
+      "localPath": "assets/images/foods/aguacate/p_00.jpg",
+      "openverse": {
+        "id": "696304ad-d49d-4879-9e43-ca74a136ceb7",
+        "title": "avocado seed + 3 sticks + water = future avocado plant! #growit #indoorgardening #foodiefamily",
+        "url": "https://live.staticflickr.com/8514/8497638033_9b580e1587.jpg",
+        "foreign_landing_url": "https://www.flickr.com/photos/79891443@N00/8497638033",
+        "license": "by-sa",
+        "creator": "Urban Hippie Science",
+        "creator_url": "https://www.flickr.com/photos/79891443@N00",
+        "source": "flickr"
+      },
+      "query": "avocado sticks"
+    },
+    {
+      "foodId": "aguacate",
+      "slot": "presentaciones[1].imagen",
+      "title": "Trozos medianos",
+      "localPath": "assets/images/foods/aguacate/p_01.jpg",
+      "openverse": {
+        "id": "bf1ce18c-ef8c-40fe-b9f9-c31854ab2a7e",
+        "title": "A vibrant salad served on a dark blue plate, featuring grilled chicken slices, avocado pieces, fresh lettuce, and tomato wedges",
+        "url": "https://pd.w.org/2025/01/797677786bf879db3.24061183-2048x1416.jpg",
+        "foreign_landing_url": "https://wordpress.org/photos/photo/797677786b/",
+        "license": "cc0",
+        "creator": "Fatima",
+        "creator_url": "https://elicus.com",
+        "source": "wordpress"
+      },
+      "query": "avocado pieces"
+    },
+    {
+      "foodId": "boniato",
+      "slot": "imagen_alimento",
+      "localPath": "assets/images/foods/boniato/main.jpg",
+      "openverse": {
+        "id": "8f7f7db8-3093-4d08-864d-9214983330e0",
+        "title": "Caramel Sweet Potatoes",
+        "url": "https://live.staticflickr.com/29/40239005_f1026bd0b3.jpg",
+        "foreign_landing_url": "https://www.flickr.com/photos/10559879@N00/40239005",
+        "license": "by-sa",
+        "creator": "avlxyz",
+        "creator_url": "https://www.flickr.com/photos/10559879@N00",
+        "source": "flickr"
+      },
+      "query": "sweet potato"
+    },
+    {
+      "foodId": "boniato",
+      "slot": "presentaciones[0].imagen",
+      "title": "Bastones asados",
+      "localPath": "assets/images/foods/boniato/p_00.jpg",
+      "openverse": {
+        "id": "0b40bc40-df8c-4a2b-a09c-4bb166b5c01c",
+        "title": "What Would Our Great-Grandparents Think?",
+        "url": "https://live.staticflickr.com/4071/4657917311_438648c26a_b.jpg",
+        "foreign_landing_url": "https://www.flickr.com/photos/93178668@N00/4657917311",
+        "license": "by",
+        "creator": "NatalieMaynor",
+        "creator_url": "https://www.flickr.com/photos/93178668@N00",
+        "source": "flickr"
+      },
+      "query": "roasted sweet potato sticks"
+    },
+    {
+      "foodId": "boniato",
+      "slot": "presentaciones[1].imagen",
+      "title": "Puré o chafado",
+      "localPath": "assets/images/foods/boniato/p_01.jpg",
+      "openverse": {
+        "id": "9d8f2bca-e532-4f55-8be5-3e1b1be62e5a",
+        "title": "mashed sweet potatoes",
+        "url": "https://live.staticflickr.com/8328/8076496632_0b8c0b9ed7_b.jpg",
+        "foreign_landing_url": "https://www.flickr.com/photos/61404197@N00/8076496632",
+        "license": "by",
+        "creator": "seelensturm",
+        "creator_url": "https://www.flickr.com/photos/61404197@N00",
+        "source": "flickr"
+      },
+      "query": "mashed sweet potato"
+    },
+    {
+      "foodId": "huevo",
+      "slot": "presentaciones[1].imagen",
+      "title": "Huevo revuelto",
+      "localPath": "assets/images/foods/huevo/p_01.jpg",
+      "openverse": {
+        "id": "67f993bc-ee98-4df3-898c-f8a937f11094",
+        "title": "Scrambled eggs on toast with bacon at Speakeasy",
+        "url": "https://live.staticflickr.com/7165/6850327577_9373970ba3_b.jpg",
+        "foreign_landing_url": "https://www.flickr.com/photos/34948727@N00/6850327577",
+        "license": "by",
+        "creator": "ultrakml",
+        "creator_url": "https://www.flickr.com/photos/34948727@N00",
+        "source": "flickr"
+      },
+      "query": "scrambled egg"
+    },
+    {
+      "foodId": "manzana",
+      "slot": "presentaciones[0].imagen",
+      "title": "Rallada o muy cocida",
+      "localPath": "assets/images/foods/manzana/p_00.jpg",
+      "openverse": {
+        "id": "c3bdc4f9-9e90-440b-a3de-f171b706a468",
+        "title": "Shikanji- served with pomegranate,grated apple and mint",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Shikanji-_served_with_pomegranate%2Cgrated_apple_and_mint.jpg",
+        "foreign_landing_url": "https://commons.wikimedia.org/w/index.php?curid=40979781",
+        "license": "by-sa",
+        "creator": "Kanikatwl",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:Kanikatwl",
+        "source": "wikimedia"
+      },
+      "query": "grated apple"
+    },
+    {
+      "foodId": "manzana",
+      "slot": "presentaciones[1].imagen",
+      "title": "Asada o al vapor en gajos grandes",
+      "localPath": "assets/images/foods/manzana/p_01.jpg",
+      "openverse": {
+        "id": "1695f499-9468-4c2f-bf7f-9befc627e0db",
+        "title": "Buchweizenpfannkuchen Apfel Zimt",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Buchweizenpfannkuchen_Apfel_Zimt.jpg",
+        "foreign_landing_url": "https://commons.wikimedia.org/w/index.php?curid=91163954",
+        "license": "by-sa",
+        "creator": "Benreis",
+        "creator_url": "https://commons.wikimedia.org/wiki/User:Benreis",
+        "source": "wikimedia"
+      },
+      "query": "steamed apple wedges"
+    },
+    {
+      "foodId": "manzana",
+      "slot": "presentaciones[2].imagen",
+      "title": "Gajos cocidos más firmes",
+      "localPath": "assets/images/foods/manzana/p_02.jpg",
+      "openverse": {
+        "id": "a1e8c276-414b-42d8-91b5-83eeaed256d1",
+        "title": "Orange Wedge",
+        "url": "https://live.staticflickr.com/2303/2260527943_a979839986_b.jpg",
+        "foreign_landing_url": "https://www.flickr.com/photos/67025584@N00/2260527943",
+        "license": "by",
+        "creator": "Malkav",
+        "creator_url": "https://www.flickr.com/photos/67025584@N00",
+        "source": "flickr"
+      },
+      "query": "apple wedges"
+    },
+    {
+      "foodId": "patata",
+      "slot": "imagen_alimento",
+      "localPath": "assets/images/foods/patata/main.jpg",
+      "openverse": {
+        "id": "059671ec-1665-4836-b05b-1702cffc3927",
+        "title": "Potatoes",
+        "url": "https://live.staticflickr.com/7018/6762195603_1fcb006a42_b.jpg",
+        "foreign_landing_url": "https://www.flickr.com/photos/53255320@N07/6762195603",
+        "license": "by",
+        "creator": "16:9clue",
+        "creator_url": "https://www.flickr.com/photos/53255320@N07",
+        "source": "flickr"
+      },
+      "query": "potato"
+    },
+    {
+      "foodId": "patata",
+      "slot": "presentaciones[0].imagen",
+      "title": "Bastones cocidos o asados",
+      "localPath": "assets/images/foods/patata/p_00.jpg",
+      "openverse": {
+        "id": "0b40bc40-df8c-4a2b-a09c-4bb166b5c01c",
+        "title": "What Would Our Great-Grandparents Think?",
+        "url": "https://live.staticflickr.com/4071/4657917311_438648c26a_b.jpg",
+        "foreign_landing_url": "https://www.flickr.com/photos/93178668@N00/4657917311",
+        "license": "by",
+        "creator": "NatalieMaynor",
+        "creator_url": "https://www.flickr.com/photos/93178668@N00",
+        "source": "flickr"
+      },
+      "query": "roasted potato sticks"
+    },
+    {
+      "foodId": "patata",
+      "slot": "presentaciones[1].imagen",
+      "title": "Puré espeso",
+      "localPath": "assets/images/foods/patata/p_01.jpg",
+      "openverse": {
+        "id": "226838e8-d1c4-4c65-a7f1-a956ddea6175",
+        "title": "Roast Wagyu Beef and Mashed Potatoes in a Yorkshire Pudding with Gravy - Cafe Vue",
+        "url": "https://live.staticflickr.com/165/353713254_0e092c6e90.jpg",
+        "foreign_landing_url": "https://www.flickr.com/photos/10559879@N00/353713254",
+        "license": "by-sa",
+        "creator": "avlxyz",
+        "creator_url": "https://www.flickr.com/photos/10559879@N00",
+        "source": "flickr"
+      },
+      "query": "mashed potato"
+    },
+    {
+      "foodId": "platano",
+      "slot": "presentaciones[0].imagen",
+      "title": "Mitad con mango de piel",
+      "localPath": "assets/images/foods/platano/p_00.jpg",
+      "openverse": {
+        "id": "016f32af-2ca9-469e-a5e9-09d1307edea1",
+        "title": "banana",
+        "url": "https://live.staticflickr.com/10/15288615_8a5421cd9f_b.jpg",
+        "foreign_landing_url": "https://www.flickr.com/photos/44124364575@N01/15288615",
+        "license": "by",
+        "creator": "keepon",
+        "creator_url": "https://www.flickr.com/photos/44124364575@N01",
+        "source": "flickr"
+      },
+      "query": "banana"
+    },
+    {
+      "foodId": "platano",
+      "slot": "presentaciones[1].imagen",
+      "title": "Tiras largas",
+      "localPath": "assets/images/foods/platano/p_01.jpg",
+      "openverse": {
+        "id": "1bd6ec53-f594-46b6-89b8-83d917866e9a",
+        "title": "Banana bunchy top, caused by Banana bunchy top virus",
+        "url": "https://live.staticflickr.com/5557/14899584858_c36602928e_b.jpg",
+        "foreign_landing_url": "https://www.flickr.com/photos/62295966@N07/14899584858",
+        "license": "cc0",
+        "creator": "Plant pests and diseases",
+        "creator_url": "https://www.flickr.com/photos/62295966@N07",
+        "source": "flickr"
+      },
+      "query": "banana strips"
+    },
+    {
+      "foodId": "pollo",
+      "slot": "presentaciones[2].imagen",
+      "title": "Pollo desmenuzado",
+      "localPath": "assets/images/foods/pollo/p_02.jpg",
+      "openverse": {
+        "id": "31d9fbe3-1467-4d83-8358-b5ca7e3a7673",
+        "title": "Local food - shredded chicken ipoh hor fun",
+        "url": "https://live.staticflickr.com/65535/48129161312_1662d28541_b.jpg",
+        "foreign_landing_url": "https://www.flickr.com/photos/171425013@N02/48129161312",
+        "license": "pdm",
+        "creator": "GeorgeTan#2...INACTIVE NOW",
+        "creator_url": "https://www.flickr.com/photos/171425013@N02",
+        "source": "flickr"
+      },
+      "query": "shredded chicken"
+    },
+    {
+      "foodId": "zanahoria",
+      "slot": "presentaciones[0].imagen",
+      "title": "Bastones cocidos muy blandos",
+      "localPath": "assets/images/foods/zanahoria/p_00.jpg",
+      "openverse": {
+        "id": "166e86a3-3ec9-41e2-a101-7ba93772dd60",
+        "title": "A close-up view of multiple small bowls filled with hummus and a colorful arrangement of sliced vegetables. The bowls contain vibrant strips of yellow, red, and green bell peppers, along with orange carrot sticks and green cucumber slices, all artfully arranged and sprinkled with a dusting of paprika.",
+        "url": "https://pd.w.org/2025/06/53685c112c78ddf2.12208580-2048x1365.jpg",
+        "foreign_landing_url": "https://wordpress.org/photos/photo/53685c112c/",
+        "license": "cc0",
+        "creator": "Nilo Velez",
+        "creator_url": "https://www.nilovelez.com",
+        "source": "wordpress"
+      },
+      "query": "carrot sticks"
+    },
+    {
+      "foodId": "zanahoria",
+      "slot": "presentaciones[2].imagen",
+      "title": "Zanahoria rallada",
+      "localPath": "assets/images/foods/zanahoria/p_02.jpg",
+      "openverse": {
+        "id": "2e33ef0a-c2f5-4aad-b262-2c48b691acb6",
+        "title": "Grated carrot",
+        "url": "https://live.staticflickr.com/8210/8191184982_6b202e5ecd_b.jpg",
+        "foreign_landing_url": "https://www.flickr.com/photos/35022955@N06/8191184982",
+        "license": "by",
+        "creator": "Lablascovegmenu",
+        "creator_url": "https://www.flickr.com/photos/35022955@N06",
+        "source": "flickr"
+      },
+      "query": "grated carrot"
+    }
+  ]
+}

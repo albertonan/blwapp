@@ -1,8 +1,12 @@
 {
   "id": "manzana",
   "nombre": "Manzana",
+  "grupo": "frutas",
+  "edad_minima": 6,
+  "es_alergeno": false,
   "info_nutricional": "Rica en fibra, vitamina C y antioxidantes. Fuente: NHS UK - https://www.nhs.uk/start-for-life/weaning/what-to-feed-your-baby/fruit-and-vegetables/",
   "nivel_riesgo": "medio",
+  "imagen_alimento": "assets/images/foods/manzana/main.jpg",
   "fuente": "NHS UK, Solid Starts",
   "presentaciones": [
     {
@@ -10,21 +14,21 @@
       "titulo": "Rallada o muy cocida",
       "descripcion": "Rallar finamente o cocer al vapor hasta que esté muy blanda. La manzana cruda es dura y representa riesgo de atragantamiento.",
       "seguro": true,
-      "imagen": null
+      "imagen": "assets/images/foods/manzana/p_00.jpg"
     },
     {
       "edad_meses": 6,
       "titulo": "Asada o al vapor en gajos grandes",
       "descripcion": "Cortar en gajos grandes y asar/cocer al vapor hasta que se deshaga fácilmente al presionar. Tamaño: mínimo como el dedo del adulto.",
       "seguro": true,
-      "imagen": null
+      "imagen": "assets/images/foods/manzana/p_01.jpg"
     },
     {
       "edad_meses": 9,
       "titulo": "Gajos cocidos más firmes",
       "descripcion": "A partir de 9 meses, puede ofrecerse algo más firme pero siempre cocida.",
       "seguro": true,
-      "imagen": null
+      "imagen": "assets/images/foods/manzana/p_02.jpg"
     }
   ],
   "prohibido": [

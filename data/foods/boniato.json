@@ -1,8 +1,12 @@
 {
   "id": "boniato",
   "nombre": "Boniato / Batata",
+  "grupo": "verduras",
+  "edad_minima": 6,
+  "es_alergeno": false,
   "info_nutricional": "Vitamina A (betacaroteno), vitamina C, fibra, potasio. Más dulce que la patata. Fuente: Solid Starts - https://solidstarts.com/foods/sweet-potato/",
   "nivel_riesgo": "bajo",
+  "imagen_alimento": "assets/images/foods/boniato/main.jpg",
   "fuente": "Solid Starts, NHS UK, AEP",
   "presentaciones": [
     {
@@ -10,21 +14,21 @@
       "titulo": "Bastones asados",
       "descripcion": "Pelar, cortar en bastones gruesos, rociar con AOVE y asar a 200°C 25-35 min hasta que esté muy tierno.",
       "seguro": true,
-      "imagen": null
+      "imagen": "assets/images/foods/boniato/p_00.jpg"
     },
     {
       "edad_meses": 6,
       "titulo": "Puré o chafado",
       "descripcion": "Cocer y chafar. Excelente primer alimento.",
       "seguro": true,
-      "imagen": null
+      "imagen": "assets/images/foods/boniato/p_01.jpg"
     },
     {
       "edad_meses": 9,
       "titulo": "Cubos tiernos",
       "descripcion": "Cubos del tamaño para pinza.",
       "seguro": true,
-      "imagen": null
+      "imagen": "assets/images/foods/boniato/p_02.jpg"
     }
   ],
   "prohibido": [

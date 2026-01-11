@@ -7,6 +7,7 @@
   "alergeno_id": "huevo",
   "info_nutricional": "Proteína completa de alta calidad, colina (esencial para desarrollo cerebral), vitamina D, B12, hierro y zinc. Es uno de los alimentos más nutritivos para bebés.",
   "nivel_riesgo": "bajo",
+  "imagen_alimento": "assets/images/foods/huevo/main.jpg",
   "fuente": {
     "nombre": "NHS UK",
     "url": "https://www.nhs.uk/conditions/baby/weaning-and-feeding/foods-to-avoid-giving-babies-and-young-children/"
@@ -17,19 +18,21 @@
       "titulo": "Tortilla en tiras",
       "descripcion": "Bate el huevo y haz una tortilla fina sin sal. Corta en tiras del tamaño del dedo del bebé. Bien hecha por dentro.",
       "seguro": true,
-      "imagen": "assets/images/huevo_tiras.svg"
+      "imagen": "assets/images/foods/huevo/p_00.jpg"
     },
     {
       "edad_meses": 6,
       "titulo": "Huevo revuelto",
       "descripcion": "Revuelve el huevo hasta que esté completamente cuajado. Textura suave que el bebé puede coger con las manos.",
-      "seguro": true
+      "seguro": true,
+      "imagen": "assets/images/foods/huevo/p_01.jpg"
     },
     {
       "edad_meses": 8,
       "titulo": "Huevo duro en cuartos",
       "descripcion": "Cuece el huevo 10-12 minutos. Pela y corta en cuartos longitudinales. Evita trozos redondos.",
-      "seguro": true
+      "seguro": true,
+      "imagen": "assets/images/foods/huevo/p_02.jpg"
     }
   ],
   "prohibido": [

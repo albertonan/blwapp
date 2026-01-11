@@ -1,8 +1,12 @@
 {
   "id": "fresas",
   "nombre": "Fresas",
+  "grupo": "frutas",
+  "edad_minima": 6,
+  "es_alergeno": false,
   "info_nutricional": "Vitamina C (más que la naranja por peso), manganeso, antioxidantes. Fuente: NHS UK - https://www.nhs.uk/start-for-life/weaning/what-to-feed-your-baby/fruit-and-vegetables/",
   "nivel_riesgo": "bajo",
+  "imagen_alimento": "assets/images/foods/fresas/main.jpg",
   "fuente": "NHS UK, Solid Starts",
   "presentaciones": [
     {
@@ -10,21 +14,21 @@
       "titulo": "Fresa grande cortada por la mitad",
       "descripcion": "Elegir fresas grandes. Cortar por la mitad longitudinalmente. La textura blanda es fácil de masticar.",
       "seguro": true,
-      "imagen": null
+      "imagen": "assets/images/foods/fresas/p_00.jpg"
     },
     {
       "edad_meses": 6,
       "titulo": "Fresa chafada",
       "descripcion": "Chafar ligeramente con un tenedor para bebés más pequeños.",
       "seguro": true,
-      "imagen": null
+      "imagen": "assets/images/foods/fresas/p_01.jpg"
     },
     {
       "edad_meses": 9,
       "titulo": "Fresas enteras pequeñas o trozos",
       "descripcion": "Fresas pequeñas enteras o en cuartos cuando domine la pinza.",
       "seguro": true,
-      "imagen": null
+      "imagen": "assets/images/foods/fresas/p_02.jpg"
     }
   ],
   "prohibido": [

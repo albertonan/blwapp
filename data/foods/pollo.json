@@ -1,8 +1,12 @@
 {
   "id": "pollo",
   "nombre": "Pollo",
+  "grupo": "proteinas",
+  "edad_minima": 6,
+  "es_alergeno": false,
   "info_nutricional": "Proteína de alta calidad, hierro hemo (más absorbible), zinc, vitaminas B. Fuente: AEP - https://www.aeped.es/comite-nutricion-y-lactancia-materna/nutricion-infantil/documentos/recomendaciones-sobre-alimentacion",
   "nivel_riesgo": "bajo",
+  "imagen_alimento": "assets/images/foods/pollo/main.jpg",
   "fuente": "AEP, NHS UK, Solid Starts",
   "presentaciones": [
     {
@@ -10,28 +14,28 @@
       "titulo": "Muslo deshuesado en tiras",
       "descripcion": "El muslo es más jugoso. Cocinar bien y cortar en tiras del grosor de un dedo adulto. Debe deshacerse al presionar.",
       "seguro": true,
-      "imagen": null
+      "imagen": "assets/images/foods/pollo/p_00.jpg"
     },
     {
       "edad_meses": 6,
       "titulo": "Muslo entero con hueso (como mango)",
       "descripcion": "El bebé muerde/chupa la carne. SIEMPRE supervisar de cerca. Quitar cartílagos sueltos.",
       "seguro": true,
-      "imagen": null
+      "imagen": "assets/images/foods/pollo/p_01.jpg"
     },
     {
       "edad_meses": 6,
       "titulo": "Pollo desmenuzado",
       "descripcion": "Desmenuzar finamente y mezclar con puré o verduras.",
       "seguro": true,
-      "imagen": null
+      "imagen": "assets/images/foods/pollo/p_02.jpg"
     },
     {
       "edad_meses": 9,
       "titulo": "Trozos más pequeños",
       "descripcion": "Trozos del tamaño para pinza cuando la domine.",
       "seguro": true,
-      "imagen": null
+      "imagen": "assets/images/foods/pollo/p_03.jpg"
     }
   ],
   "prohibido": [

@@ -1,8 +1,12 @@
 {
   "id": "brocoli",
   "nombre": "Brócoli",
+  "grupo": "verduras",
+  "edad_minima": 6,
+  "es_alergeno": false,
   "info_nutricional": "Vitaminas C y K, fibra, calcio, hierro. Excelente primer alimento BLW. Fuente: NHS UK - https://www.nhs.uk/start-for-life/weaning/what-to-feed-your-baby/fruit-and-vegetables/",
   "nivel_riesgo": "bajo",
+  "imagen_alimento": "assets/images/foods/brocoli/main.jpg",
   "fuente": "NHS UK, Solid Starts, AEP",
   "presentaciones": [
     {
@@ -10,14 +14,14 @@
       "titulo": "Florete grande al vapor",
       "descripcion": "El 'tallo' del florete actúa como mango natural. Cocer al vapor 8-10 min hasta que esté blando pero mantenga forma.",
       "seguro": true,
-      "imagen": null
+      "imagen": "assets/images/foods/brocoli/p_00.jpg"
     },
     {
       "edad_meses": 9,
       "titulo": "Floretes más pequeños",
       "descripcion": "Floretes del tamaño apropiado para la pinza.",
       "seguro": true,
-      "imagen": null
+      "imagen": "assets/images/foods/brocoli/p_01.jpg"
     }
   ],
   "prohibido": [

@@ -7,6 +7,7 @@
   "alergeno_id": "lacteos",
   "info_nutricional": "Proteína de alta calidad, calcio, probióticos beneficiosos para la flora intestinal, vitamina B12 y riboflavina. Mejor opción que la leche como bebida antes del año.",
   "nivel_riesgo": "bajo",
+  "imagen_alimento": "assets/images/foods/yogur/main.jpg",
   "fuente": {
     "nombre": "NHS UK",
     "url": "https://www.nhs.uk/conditions/baby/weaning-and-feeding/what-to-feed-young-children/"
@@ -17,19 +18,21 @@
       "titulo": "Con cuchara precargada",
       "descripcion": "Ofrece yogur natural sin azúcar en una cuchara precargada que el bebé pueda llevarse a la boca. También puedes dejar que meta las manos.",
       "seguro": true,
-      "imagen": "assets/images/yogur_cuchara.svg"
+      "imagen": "assets/images/foods/yogur/p_00.jpg"
     },
     {
       "edad_meses": 6,
       "titulo": "Mezclado con frutas",
       "descripcion": "Mezcla yogur con fruta chafada (plátano, aguacate, pera muy madura) para añadir nutrientes y sabor natural.",
-      "seguro": true
+      "seguro": true,
+      "imagen": "assets/images/foods/yogur/p_01.jpg"
     },
     {
       "edad_meses": 9,
       "titulo": "En bol para comer solo",
       "descripcion": "El bebé puede empezar a usar cuchara de forma autónoma. Usa yogur espeso tipo griego para que no gotee tanto.",
-      "seguro": true
+      "seguro": true,
+      "imagen": "assets/images/foods/yogur/p_02.jpg"
     }
   ],
   "prohibido": [
